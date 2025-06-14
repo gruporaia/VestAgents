@@ -1,0 +1,27 @@
+[project]
+name = "raia_agents"
+version = "0.1.0"
+description = "raia_agents using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "crewai[tools]>=0.118.0,<1.0.0",
+    "requests>=2.32.3",
+    "selenium>=4.33.0",
+    "webdriver-manager>=4.0.2",
+]
+
+[project.scripts]
+raia_agents = "raia_agents.main:run"
+run_crew = "raia_agents.main:run"
+train = "raia_agents.main:train"
+replay = "raia_agents.main:replay"
+test = "raia_agents.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

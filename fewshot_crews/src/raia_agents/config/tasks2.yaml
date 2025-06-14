@@ -1,0 +1,103 @@
+geração_questao:
+  description: >
+    Gere uma questão inédita de múltipla escolha para vestibulares e ENEM, com base no pedido do usuário {questao_melhorada} e no tópico da questão {topicos} identificada.
+    A questão deve ser elaborada no estilo dos principais exames brasileiros (como ENEM), focando na avaliação de competências essenciais do ensino médio.
+
+    {few_shot_prompt}
+
+    Instruções Detalhadas:
+
+    1. Estrutura da Questão:
+      Enunciado: Deve ser autocontido, apresentando uma contextualização relevante e instigante (podendo ser um cenário 
+      cotidiano, científico, histórico, social, etc.), seguida de uma pergunta principal clara e objetiva. O enunciado 
+      deve ter entre 50 e 200 palavras.
+      Alternativas: Crie 4 (quatro) alternativas de resposta, rotuladas como A, B, C, D.
+    2. Qualidade das Alternativas:
+      Correta: Apenas UMA alternativa deve ser inequivocamente correta, com base nos conhecimentos esperados para o 
+      nível.
+      Distratores: As outras três alternativas (distratores) devem ser plausíveis e atraentes, mas tecnicamente 
+      incorretas. Idealmente, os distratores devem explorar erros conceituais comuns, interpretações parciais, 
+      raciocínios falhos ou aplicação incorreta de fórmulas/conceitos. Evite alternativas absurdas ou facilmente 
+      descartáveis.
+    3. Conteúdo e Competências:
+      A questão deve ser rigorosamente precisa em termos conceituais e factuais para o tópico fornecido.
+      Deve avaliar habilidades cognitivas além da simples memorização, como interpretação de texto/dados, análise 
+      crítica, raciocínio lógico, argumentação, resolução de problemas e aplicação de conhecimentos em novos contextos.
+    4. Formato e Estilo:
+      Utilize linguagem clara, precisa e adequada ao público do ensino médio e pré-vestibular.
+      Se a questão envolver fórmulas matemáticas, gráficos, tabelas ou equações químicas, utilize a notação LaTeX 
+      para representá-las corretamente. 
+      A questão deve ser original, evitando cópias diretas de questões existentes, mas pode se inspirar na complexidade,
+       no formato e no estilo de questões de exames anteriores.
+    5. Restrições:
+      Não inclua a identificação da resposta correta (gabarito) no texto do enunciado ou das alternativas. O gabarito 
+      será especificado em um campo separado no JSON de saída.
+      Não utilize as tools disponíveis para esta tarefa. A geração deve ser baseada exclusivamente no seu conhecimento 
+      e nas instruções fornecidas.
+      A questão deve ser solucionável com base no conhecimento tipicamente adquirido durante o Ensino Médio.
+  expected_output: >
+    Um objeto JSON contendo as chaves "enunciado", "alternativas" e "gabarito".
+    A chave "alternativas" deve ser um objeto com as chaves "A", "B", "C", "D", contendo os textos de cada alternativa.
+    A chave "gabarito" deve conter a letra da alternativa correta.
+
+    Exemplo de Saída:
+    {
+      "enunciado": "Um jardineiro dispõe de k metros lineares de cerca baixa para fazer um jardim ornamental. O jardim, delimitado por essa cerca, deve ter a forma de um triângulo equilátero, um quadrado ou um hexágono regular. A escolha será pela forma que resulte na maior área. O jardineiro escolherá a forma de",
+      "alternativas": {
+        "A": "hexágono regular, pois a área do jardim, em metro quadrado, será $\frac{k^2\sqrt{3}}{24}$.",
+        "B": "hexágono regular, pois a área do jardim, em metro quadrado, será $\frac{3k^2\sqrt{3}}{2}$.",
+        "C": "quadrado, pois a área do jardim, em metro quadrado, será $\frac{k^2}{16}$.",
+        "D": "triângulo equilátero, pois a área do jardim, em metro quadrado, será $\frac{k^2\sqrt{3}}{36}$."
+    }
+  agent: redator_questao
+
+
+resolucao_questao:
+  description: >
+    Solucione a questão de vestibular gerada previamente e explique o raciocínio por trás da resolução.
+    Desenvolva a lógica de raciocínio e o embasamento teórico que fundamenta a resposta correta.
+    Destaque a resposta final e alternativa correta entre as opções apresentadas. Se não houver uma alternativa correta, indique que a questão não possui uma resposta correta.
+  expected_output: >
+    Um json com as chaves "explicacao", "resposta_final" e "alternativa_correta" preenchidas com os valores correspondentes.
+    Exemplo de saída:
+    {
+      "explicacao": "A velocidade média é dada pela fórmula V = d/t, onde d é a distância e t é o tempo. Neste caso, d = 100 km e t = 2 h. Portanto, V = 100 km / 2 h = 50 km/h.",
+      "resposta_final": "50 km/h",
+      "alternativa_correta": "A"
+    }
+  agent: resolutor_questao
+
+correção_questao:
+  description: >
+    Analise criticamente e corrija exclusivamente o enunciado de uma questão de vestibular previamente gerada.
+    Input: Você receberá uma questão completa (com "enunciado" original, "alternativas" e "gabarito").
+    Sua Tarefa:
+
+    1. Identifique e corrija erros de gramática (ortografia, concordância, regência, pontuação), imprecisões na 
+    fundamentação teórica, ambiguidades, falta de clareza ou informações redundantes/ausentes no enunciado.
+    2.  NÃO altere as "alternativas" nem o "gabarito" fornecidos. Seu trabalho é ajustar o enunciado para que ele 
+    esteja correto, claro e totalmente alinhado com as alternativas e o gabarito existentes.
+    3. As correções devem visar a melhoria da qualidade e da precisão do enunciado, sem modificar o problema central 
+    proposto ou o nível de dificuldade pretendido.
+    4. No campo "correcoes_detalhadas" do JSON de saída, descreva objetivamente todas as alterações significativas 
+    realizadas no enunciado e justifique brevemente por que foram necessárias (ex: "Correção de concordância verbal na 
+    segunda frase para maior clareza.", "Ajuste na definição de X para precisão conceitual.", "Remoção de informação 
+    redundante que não contribuía para a pergunta.").
+    5. Se o enunciado original já estiver perfeito e não necessitar de correções, indique isso claramente no campo 
+    "correcoes_detalhadas" (ex: "Nenhuma correção necessária. O enunciado original está gramaticalmente correto, 
+    conceitualmente preciso e claro.").
+  expected_output: >
+    Um json sem ``` com as chaves "enunciado", "alternativas" e "correcoes" preenchidas com os valores correspondentes.
+    Exemplo de saída:
+
+      {
+        "enunciado": "Um jardineiro dispõe de k metros lineares de cerca baixa para fazer um jardim ornamental. O jardim, delimitado por essa cerca, deve ter a forma de um triângulo equilátero, um quadrado ou um hexágono regular. A escolha será pela forma que resulte na maior área. O jardineiro escolherá a forma de",
+        "alternativas": {
+          "A": "hexágono regular, pois a área do jardim, em metro quadrado, será $\frac{k^2\sqrt{3}}{24}$.",
+          "B": "hexágono regular, pois a área do jardim, em metro quadrado, será $\frac{3k^2\sqrt{3}}{2}$.",
+          "C": "quadrado, pois a área do jardim, em metro quadrado, será $\frac{k^2}{16}$.",
+          "D": "triângulo equilátero, pois a área do jardim, em metro quadrado, será $\frac{k^2\sqrt{3}}{36}$.",
+        "gabarito_original" : "A",
+        "correcao": "A correção realizada foi em ...."
+      }
+  agent: revisor_questao

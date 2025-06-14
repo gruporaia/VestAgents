@@ -1,0 +1,34 @@
+melhorar_pergunta:
+  description: >
+    Melhora a pergunta do usuário, tornando-a mais clara para obter melhores respostas de ferramentas de IA.
+    Deve manter o significado original da pergunta, sem acrescentar pedidos adicionais, mas melhorar a clareza e a precisão.
+    Input do usuário: {input_user}
+  expected_output: >
+    Um json com as chaves "pergunta_original", "pergunta_melhorada" preenchidas com os valores correspondentes.
+    Exemplo de saída:
+    {
+      "pergunta_original": "eu quero uma questão de química pra entrar na unicamp sobre Funções estruturas e ligações em quimica organica",
+      "pergunta_melhorada": "Crie uma questão de múltipla escolha no estilo do vestibular da Unicamp sobre funções orgânicas, estrutura molecular e tipos de ligações em compostos orgânicos. A questão deve ter nível de dificuldade médio e incluir alternativas plausíveis, com gabarito e explicação comentada."
+    }
+
+  agent: melhorador_perguntas
+filtrar_topicos:
+  description: >
+    Identifique a disciplina, categoria e a subcategoria da questão alvo que o usuário está solicitando.
+    Input do usuário: {input_user}
+  expected_output: >
+    Um json com as chaves "disciplina", "categoria" e "subcategoria" preenchidas com os valores correspondentes.
+    Exemplo de saída:
+    {
+      "disciplina": "Física",
+      "categoria": "Mecânica",
+      "subcategoria": "Cinemática"
+    }
+  agent: identificador_topicos
+
+selecionar_questoes:
+  description: >
+    Utilize a tool "Questions Retriever", considere utilizar a Quantidade de trechos de similaridade para ser usado na busca com o valor 5.
+  expected_output: >
+    Um prompt para um modelo LLM de geração de questões, fornecendo como contexto uma lista de questões de exemplo recuperadas.
+  agent: few_shot_agent
