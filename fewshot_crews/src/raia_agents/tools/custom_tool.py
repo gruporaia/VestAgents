@@ -43,7 +43,7 @@ class RetrieveQuestoesTool(BaseTool):
         self, topic: str, amount_to_retrieve: int = 5, threshold: float = 0.3
     ) -> str:
         vector_store = FAISS.load_local(
-            "artifacts/",
+            "artifacts/questions_faiss_v2/",
             embeddings,
             allow_dangerous_deserialization=True,
         )
@@ -54,21 +54,27 @@ class RetrieveQuestoesTool(BaseTool):
         )
 
         examples = [
-            # NOTE: substituindo curly brackets porque algumas questoes usam eles para representar conjunto, ex: {1,2,3} ([1,2,3] nao causa problemas)
-            # Acaba causando problemas na hora de gerar o prompt porque ele vai tentar parsear como um json
-            {"pergunta": doc.page_content.replace("{", "[").replace("}", "]")}
+            {
+                "questao":
+                    f"{doc.page_content.split('Alternatives')[0].strip()}\n\n" +
+                    (
+                        f"Alternativas:\n{doc.page_content.split('Alternatives:')[1].strip()}"
+                        if "Alternatives:" in doc.page_content
+                        else "Alternativas não encontradas."
+                    )
+            }
             for doc, _ in docs
         ]
 
         example_prompt = PromptTemplate(
-            input_variables=["pergunta"], template="Pergunta: {pergunta}\n"
+            input_variables=["questao"], template="Questão: \n{questao}\n\n"
         )
 
         few_shot_prompt = FewShotPromptTemplate(
             examples=examples,
             example_prompt=example_prompt,
-            prefix="Aqui estão algumas questões semelhantes ao que foi solicitado:",
-            suffix="Questão de Input do usuario: {input}",
+            prefix="Aqui estão exemplos de questões no tópico fornecido:",
+            suffix="Gere uma nova questão de acordo com o tema: {input}",
             input_variables=["input"],
         )
 
