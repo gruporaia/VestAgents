@@ -1,9 +1,8 @@
 geração_questao:
   description: >
-    Gere uma questão inédita de múltipla escolha para vestibulares e ENEM, com base no pedido do usuário {questao_melhorada} e no tópico da questão {topicos} identificada.
-    A questão deve ser elaborada no estilo dos principais exames brasileiros (como ENEM), focando na avaliação de competências essenciais do ensino médio.
-
-    {few_shot_prompt}
+    Gere uma questão inédita de múltipla escolha para simular um vestibular do Brasil seguindo o pedido do usuário:
+    {solicitacao_melhorada}
+    A questão deve ser elaborada no estilo dos principais exames brasileiros, focando na avaliação de competências essenciais do ensino médio.
 
     Instruções Detalhadas:
 
@@ -32,13 +31,15 @@ geração_questao:
     5. Restrições:
       Não inclua a identificação da resposta correta (gabarito) no texto do enunciado ou das alternativas. O gabarito 
       será especificado em um campo separado no JSON de saída.
-      Não utilize as tools disponíveis para esta tarefa. A geração deve ser baseada exclusivamente no seu conhecimento 
-      e nas instruções fornecidas.
-      A questão deve ser solucionável com base no conhecimento tipicamente adquirido durante o Ensino Médio.
+
+      A questão deve ser solucionável com base no conhecimento tipicamente adquirido durante o Ensino Médio e utiizando
+      raciocínio lógico.
+  
+    {few_shot_prompt}
   expected_output: >
-    Um objeto JSON contendo as chaves "enunciado", "alternativas" e "gabarito".
+    Um objeto JSON contendo as chaves "enunciado" e "alternativas".
+    A chave "enunciado" deve conter o texto do enunciado da questão, que deve ser autocontido e contextualizado.
     A chave "alternativas" deve ser um objeto com as chaves "A", "B", "C", "D", contendo os textos de cada alternativa.
-    A chave "gabarito" deve conter a letra da alternativa correta.
 
     Exemplo de Saída:
     {

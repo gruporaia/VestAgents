@@ -3,6 +3,6 @@ __pycache__/
 .DS_Store
 *.faiss
 *.pkl
-resultados/*
-
+*/resultados/*
+*logs.json
 *.venv/

@@ -63,7 +63,7 @@ class RaiaAgents:
     def selecionar_questoes(self) -> Task:
         return Task(
             config=self.tasks_config["selecionar_questoes"],
-            output_file=f"resultados/{self.question_id}/resultado_ferramenta.json",
+            output_file=f"resultados/{self.question_id}/few_shot_prompt.json",
         )
 
     @crew

@@ -1,6 +1,6 @@
 buscar_dados_para_questao:
   description: |
-    Com base no pedido do usuário {questao_melhorada} e no tópico da questão {topicos} identificada, realize uma busca na internet
+    Com base no pedido do usuário {solicitacao_melhorada} e no tópico da questão {topicos} identificada, realize uma busca na internet
     para encontrar conteúdos que possam ser utilizados como texto-base em uma questão de vestibular.
 
     **EXTRAÇÃO RAW**  
@@ -37,7 +37,7 @@ buscar_dados_para_questao:
 
 geração_questao:
   description: >
-    Gere uma questão inédita de múltipla escolha para vestibulares e ENEM, com base no pedido do usuário {questao_melhorada} e no tópico da questão {topicos} identificada.
+    Gere uma questão inédita de múltipla escolha para vestibulares e ENEM, com base no pedido do usuário {solicitacao_melhorada} e no tópico da questão {topicos} identificada.
     A questão deve ser elaborada no estilo dos principais exames brasileiros (como ENEM), focando na avaliação de competências essenciais do ensino médio.
 
     Alguns exemplos de questões sobre a temática que podem ser úteis para a geração da questão {input_user}
