@@ -83,9 +83,10 @@ O VestAgents já foi utilizado para gerar centenas de questões inéditas com qu
 
 ## 📑 Referências
 
-- FAISS - Facebook AI Similarity Search  
-- Serper API - Busca estruturada na web  
-- Beautiful Soup - Extração de conteúdo HTML  
+- [FAISS - Facebook AI Similarity Search](https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/)  
+- [Serper API - Busca estruturada na web](https://serper.dev/)  
+- [Beautiful Soup - Extração de conteúdo HTML](https://pypi.org/project/beautifulsoup4/)
+- [CrewAI](https://www.crewai.com/)  
 - [PICO](https://www.usepico.com.br/)
 
 ## 💻 Quem somos
@@ -93,13 +94,16 @@ O VestAgents já foi utilizado para gerar centenas de questões inéditas com qu
 | ![LogoRAIA](https://github.com/user-attachments/assets/ce3f8386-a900-43ff-af84-adce9c17abd2) | Este projeto foi desenvolvido pelos membros do **RAIA (Rede de Avanço de Inteligência Artificial)**, uma iniciativa estudantil do Instituto de Ciências Matemáticas e de Computação (ICMC) da USP - São Carlos. Somos estudantes que compartilham o objetivo de criar soluções inovadoras utilizando inteligência artificial para impactar positivamente a sociedade. Para saber mais, acesse [nosso site](https://gruporaia.vercel.app/) ou [nosso Instagram](https://instagram.com/grupo.raia)! |
 |------------------|-------------------------------------------|
 
+## 💻 Patrocínio
+| <img width="240" height="240" alt="pico" src="https://github.com/user-attachments/assets/bf9fb6e9-d978-409a-9cbb-fc38538c0c5a" /> | Este projeto foi desenvolvido com a Pico, uma plataforma de aprendizado digital com gameficação, que implementa inteligência artificial para estimular o aprendizado. Para saber mais, acesse [use Pico](https://www.usepico.com.br/) |
+|------------------|-------------------------------------------|
+
+
 ### Desenvolvedores
 
-- **Álvaro Lopes**
-- **Artur de Vlieger**
-- **Fabrício Salomon**
-- **Leticia Bossatto Marchezi**  
-- **Luis Felipe Jorge**
-- **Luísa Shimabucoro**
-- **Otávio Coletti**
-- **Pedro Monteiro**
+- **Álvaro Lopes**. [Linkedin](https://www.linkedin.com/in/alvaro-jose-lopes/) e [Github](https://github.com/AlvaroJoseLopes)
+- **Artur de Vlieger**  [Linkedin](https://www.linkedin.com/in/artur-de-vlieger-336829252/) e [Github](https://github.com/Deflyer)
+- **Fabrício Salomon** [Linkedin](https://www.linkedin.com/in/fabr%C3%ADcio-salomon/) e [Github](https://github.com/FabricioLRSalomon)
+- **Leticia Bossatto Marchezi**   [Linkedin](https://www.linkedin.com/in/letmarchezi/) e [Github](https://github.com/letMarchezi)
+- **Luis Felipe Jorge** [Linkedin](https://www.linkedin.com/in/luis-felipe-jorge/) e [Github](https://github.com/LuisFelipeJorge)
+- **Otávio Coletti** [Linkedin](https://www.linkedin.com/in/ot%C3%A1viocoletti-012/) e [Github](https://github.com/otaviofcoletti)
