@@ -74,13 +74,6 @@ O VestAgents já foi utilizado para gerar centenas de questões inéditas com qu
 - Diversidade de tópicos e níveis de dificuldade.
 - Geração contextualizada com exemplos e textos atualizados.
 
-### Próximos passos
-
-- Integração com interface gráfica via Streamlit.
-- Avaliação com professores parceiros da PICO.
-- Implementação de avaliação automática da qualidade da questão gerada.
-- Inclusão de suporte a diferentes idiomas e níveis educacionais.
-
 ## 📑 Referências
 
 - FAISS - Facebook AI Similarity Search  
