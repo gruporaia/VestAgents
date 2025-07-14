@@ -18,8 +18,6 @@ O VestAgents implementa quatro estratégias complementares para geração de que
 
 Utiliza embeddings e FAISS para construir e consultar um banco de dados vetorial de questões passadas. Isso permite que o modelo tenha exemplos semanticamente semelhantes como contexto para gerar novas questões.
 
-![Fluxo Retrieval](assets/flowchart_rag_agent_en.png)
-
 #### Few-shot
 
 Extensão do retrieval: após buscar questões semelhantes, constrói-se um prompt few-shot que serve de base para o modelo gerar uma nova questão.
