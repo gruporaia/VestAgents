@@ -1,0 +1,106 @@
+{
+  "sem_erro_conceitual [GEval]": {
+    "average": 0.9304841330771183,
+    "extremes": {
+      "highest": {
+        "score": 1.0000000000000002,
+        "item_index": 30
+      },
+      "lowest": {
+        "score": 0.522877164903214,
+        "item_index": 4
+      }
+    }
+  },
+  "eixos_cognitivos [GEval]": {
+    "average": 0.9236415052842117,
+    "extremes": {
+      "highest": {
+        "score": 0.9952574130188356,
+        "item_index": 25
+      },
+      "lowest": {
+        "score": 0.8419061907798986,
+        "item_index": 47
+      }
+    }
+  },
+  "exigencia_cognitiva [GEval]": {
+    "average": 0.9162790516286808,
+    "extremes": {
+      "highest": {
+        "score": 0.9924141824157262,
+        "item_index": 36
+      },
+      "lowest": {
+        "score": 0.7944578086371183,
+        "item_index": 17
+      }
+    }
+  },
+  "linguagem_inclusiva [GEval]": {
+    "average": 0.8965932401652685,
+    "extremes": {
+      "highest": {
+        "score": 0.9731058578630003,
+        "item_index": 31
+      },
+      "lowest": {
+        "score": 0.7802113302273789,
+        "item_index": 47
+      }
+    }
+  },
+  "enunciado [GEval]": {
+    "average": 0.8916697006078536,
+    "extremes": {
+      "highest": {
+        "score": 0.932082129433083,
+        "item_index": 25
+      },
+      "lowest": {
+        "score": 0.7300055827852707,
+        "item_index": 9
+      }
+    }
+  },
+  "alternativa_correta [GEval]": {
+    "average": 0.88835218213145,
+    "extremes": {
+      "highest": {
+        "score": 1.0,
+        "item_index": 25
+      },
+      "lowest": {
+        "score": 0.612572319415478,
+        "item_index": 9
+      }
+    }
+  },
+  "distratores [GEval]": {
+    "average": 0.8592775336290234,
+    "extremes": {
+      "highest": {
+        "score": 0.9182425519361447,
+        "item_index": 25
+      },
+      "lowest": {
+        "score": 0.6541011859805075,
+        "item_index": 47
+      }
+    }
+  },
+  "habilidade_enem [GEval]": {
+    "average": 0.7998340883625331,
+    "extremes": {
+      "highest": {
+        "score": 0.9679178699175391,
+        "item_index": 37
+      },
+      "lowest": {
+        "score": 0.43185595172830843,
+        "item_index": 3
+      }
+    }
+  }
+}

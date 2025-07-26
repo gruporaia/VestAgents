@@ -1,0 +1,407 @@
+input,output
+Quero uma questão de ENEM sobre funções exponenciais.,"A função exponencial é utilizada para descrever e modelar o comportamento de várias situações no nosso dia a dia, como no crescimento populacional e em investimentos financeiros. Por exemplo, um investimento de capital inicial de R$ 1.000,00 em uma aplicação que rende 5% ao mês pode ser modelado pela função exponencial f(t) = 1000 * (1 + 0,05)ᵗ, onde t representa o tempo em meses. Disponível em: https://mundoeducacao.uol.com.br/matematica/funcao-exponencial.htm. Acesso em: 28 out. 2023
+
+Qual é o montante acumulado após 3 meses desse investimento, descrito pela função f(t) = 1000 * (1 + 0,05)ᵗ?
+
+A) R$ 1.157,63
+B) R$ 1.215,50
+C) R$ 1.500,00
+D) R$ 1.231,50"
+Me envie uma questão de história sobre a Revolução Francesa.,"A Revolução Francesa foi o ciclo revolucionário, ocorrido entre 1789 e 1799, responsável pelo fim dos privilégios da aristocracia e pelo término do Antigo Regime. A Revolução Francesa é considerada um marco na história ocidental, simbolizando o fim de uma era e criando outros padrões políticos e sociais. Surgiu em um contexto de graves crises sociais e econômicas e foi impulsionada pelos ideais do Iluminismo, que defendiam a razão e a igualdade entre os homens. A insatisfação da população, especialmente da burguesia, levou à convocação dos Estados Gerais e à formação da Assembleia Nacional, sendo a Tomada da Bastilha, em 14 de julho de 1789, um evento emblemático desse processo. Disponível em : https://brasilescola.uol.com.br/historiag/revolucao-francesa.htm
+
+Com base no contexto apresentado, qual das alternativas abaixo representa uma das principais consequências da Revolução Francesa para a sociedade europeia do século XIX?
+
+A) O fortalecimento do absolutismo monárquico na França, com a restauração das práticas feudais tradicionais.
+B) A disseminação dos ideais de liberdade e igualdade, inspirando movimentos revolucionários em outros países europeus.
+C) A centralização do poder nas mãos da Igreja Católica, que voltou a exercer influência política significativa.
+D) A permanência dos privilégios da aristocracia, com a aristocracia mantendo total controle sob o sistema político."
+Pode gerar uma questão de física sobre leis de Newton?,"Os exemplos de aplicações da primeira lei de Newton envolvem a continuação do movimento pelo corpo até encontrar um obstáculo ou a continuação do seu repouso até que uma força externa atue sobre ele, como, por exemplo, o uso do cinto de segurança que visa proteger o passageiro em caso de uma freada brusca, pois a inércia faz com que ele ainda tenha a tendência de continuar se movendo na mesma direção.
+
+Um carro viaja por uma estrada a uma velocidade constante quando, de repente, o motorista realiza uma frenagem brusca para evitar uma colisão. Se o carro não estivesse equipado com cintos de segurança, o que aconteceria com os ocupantes do veículo devido à primeira lei de Newton?
+
+A) Os ocupantes continuariam a se mover na mesma velocidade do carro, permanecendo seguros.
+B) Os ocupantes seriam empurrados para frente, em direção ao painel do carro, por inércia.
+C) Os ocupantes diminuiriam a velocidade gradualmente até pararem completamente, sem consequências.
+D) Os ocupantes teriam sua trajetória alterada, mas não perceberiam nenhuma mudança em seu movimento."
+Quero uma questão de biologia sobre fotossíntese.,"A fotossíntese é um processo em que a energia solar é capturada e utilizada na produção de moléculas orgânicas. O processo envolve a conversão de dióxido de carbono (CO2) e água (H2O) em glicose (C6H12O6) e oxigênio (O2), usando a luz solar como fonte de energia.
+
+Em relação ao processo de fotossíntese, analise as afirmações a seguir e assinale a alternativa correta que representa o funcionamento e os produtos finais desse processo. 
+
+I – A fotossíntese não ocorre exclusivamente nas folhas das plantas. 
+II – O processo envolve a conversão da luz solar em energia química, resultando na formação de glicose e oxigênio. 
+III – A clorofila é apenas um dos pigmentos responsáveis pela absorção da luz solar durante a fotossíntese. 
+IV – O dióxido de carbono é um dos principais reagentes utilizados nas reações da fotossíntese.
+
+A) Apenas I e III estão corretas.
+B) Apenas II e IV estão corretas.
+C) Apenas III e IV estão corretas.
+D) Todas as afirmações estão corretas."
+Gere uma questão de química sobre ligações químicas.,"Ligações químicas - Toda Matéria
+As ligações químicas são interações entre átomos que resultam na formação de moléculas e compostos. Entre as principais ligações químicas estão: Ligação iônica: ocorre quando há transferência de elétrons entre átomos, formando íons. Ligação covalente: ocorre quando átomos compartilham elétrons. Ligações metálicas: são interações que envolvem átomos de metais com elétrons livres.
+
+Um estudante de química está revisando os conceitos de ligações químicas para um exame. Ele lê sobre os diferentes tipos de ligações e suas propriedades. Com base em suas pesquisas, ele percebe que algumas substâncias possuem características físicas distintas devido ao tipo de ligação predominante. Assinale a alternativa que apresenta a relação correta entre o tipo de ligação química e uma de suas propriedades específicas.
+
+A) O cloreto de sódio (NaCl) é um exemplo de ligação covalente e apresenta alta condutividade elétrica no estado sólido.
+B) O diamante, uma forma do carbono, apresenta ligação covalente e possui alta dureza devido à forte atração entre seus átomos.
+C) O alumínio é uma substância iônica que é altamente maleável e condutora de eletricidade tanto no estado sólido quanto no líquido.
+D) A água (H2O) é uma substância metálica que tende a ter um ponto de ebulição mais alto devido às interações metálicas entre as moléculas."
+Quero uma questão de geografia sobre mudanças climáticas.,"As mudanças climáticas têm se tornado um dos maiores desafios enfrentados pela humanidade, levando a consequências imprevistas para o meio ambiente e a sociedade. Entre as estratégias propostas para mitigar esses efeitos, destacam-se a adoção de energias renováveis e a restauração de ecossistemas, como reflorestamento. Essas ações visam reduzir a emissão de gases de efeito estufa e aumentar a capacidade de resiliência dos ambientes ecossistêmicos.
+
+Considerando o contexto das mudanças climáticas e as soluções propostas para mitigá-las, assinale a alternativa que apresenta uma ação efetiva para combater esses efeitos negativos:
+
+A) Aumento do uso de combustíveis fósseis para a geração de energia, visando atender a demandas crescentes.
+B) Implementação de políticas de reflorestamento, que visem restaurar áreas degradadas e aumentar a absorção de carbono.
+C) Promoção de atividades industriais sem regulamentação ambiental, visando estimular a economia local.
+D) Manutenção da agricultura tradicional, sem adaptações às novas condições climáticas, mesmo que isso comprometa as colheitas futuras."
+Manda uma questão de sociologia sobre desigualdade social.,"A desigualdade leva ao aumento da pobreza, da má qualidade da alimentação e à fome. Com isso, também há más condições de moradia, falta de saneamento básico, entre outras dificuldades que comprometem a qualidade de vida da população mais vulnerável. Ao mesmo tempo, essa situação gera um ciclo vicioso de exclusão social, onde os indivíduos marginalizados têm pouca ou nenhuma chance de romper as barreiras socioeconômicas impostas por essa desigualdade. Essa realidade pode ser observada em várias dimensões, incluindo acesso à educação, saúde e oportunidades de emprego, refletindo uma estrutura social profundamente desigual.
+
+Com base nas informações apresentadas no texto de apoio, qual é uma consequência direta da desigualdade social nas áreas urbanas contemporâneas?
+
+A) Melhora nas condições de saúde e aumento do acesso a serviços básicos para toda a população.
+B) Redução do nível de pobreza e maior igualdade na distribuição de renda entre diferentes classes sociais.
+C) Aumento da pobreza, má qualidade da alimentação e restrições no acesso a moradia e saneamento básico.
+D) Crescimento econômico sustentável, promovendo a inclusão social e a diminuição das disparidades sociais."
+Me dá uma questão de filosofia sobre Sócrates.,"A maiêutica socrática consiste num jogo dialético de perguntas e respostas, visando trazer à tona as ideias e a essência das coisas, promovendo a reflexão crítica no interlocutor.
+
+Em um diálogo filosófico, um estudante questiona a relevância do método maiêutico de Sócrates em suas buscas e trocas de ideias. Para Sócrates, a maiêutica não é apenas um método de questionamento, mas também uma forma de promover a reflexão ética e a busca pela verdade. Considerando esses aspectos da filosofia socrática, qual das alternativas abaixo reflete a essência da maiêutica e sua importância ética?
+
+A) A maiêutica impõe respostas fixas às perguntas, buscando definir verdades absolutas para os interlocutores.
+B) A maiêutica fomenta a reflexão autônoma e crítica, ajudando o interlocutor a descobrir suas próprias verdades e promover sua ética pessoal.
+C) A maiêutica busca promover debates acalorados sem preocupação pela moralidade das opiniões defendidas.
+D) A maiêutica se baseia na ironia direta e na debilidade do oponente, buscando apenas vencer discussões."
+Quero uma questão de português sobre análise sintática.,"A análise sintática é o estudo da função de cada termo de uma oração. Um termo, ou palavra, pode ser classificado de forma diferente de acordo com a função que exerce na frase. Os termos que compõem uma oração podem ser sujeitos, predicados, complementos, entre outros elementos. Por exemplo, na frase 'O cachorro correu rapidamente', 'O cachorro' é o sujeito, 'correu' é o verbo, e 'rapidamente' funciona como um adjunto adverbial.Disponível em: https://www.todamateria.com.br/analise-sintatica/. Acesso em: 28 out. 2023
+
+Analise a seguinte frase: 'Os alunos dedicaram-se intensamente aos estudos durante o ano letivo.' Assinale a alternativa que apresenta a classificação correta para o termo grifado 'intensamente':
+
+A) Adjunto adnominal.
+B) Complemento nominal.
+C) Núcleo do sujeito.
+D) Adjunto adverbial."
+Gera uma questão de matemática sobre probabilidade.,"Teste seus conhecimentos sobre probabilidade com questões divididas por nível de dificuldade, que são úteis para o ensino fundamental e médio.
+
+Em uma festa, um organizador decide distribuir 5 prêmios entre 10 participantes. Cada prêmio é idêntico e todos os participantes têm a mesma chance de ganhar. Qual é a probabilidade de que um participante específico ganhe pelo menos um prêmio?
+
+A) 0,5
+B) 0,4
+C) 0,31
+D) 0,78"
+Quero uma questão de física sobre eletromagnetismo.,"O eletromagnetismo é resultado da interação entre cargas elétricas, que geram campos elétricos, e campos magnéticos, que podem ser gerados por correntes elétricas. Essa inter-relação é fundamental para entender diversas aplicações tecnológicas, como motores elétricos e geradores. Disponível em: https://brasilescola.uol.com.br/fisica/eletromagnetismo.htm. Acesso em: 28 out. 2023
+
+Em um experimento de laboratório, um estudante observa a interação entre um campo elétrico e um campo magnético. Ele utiliza um fio condutor onde uma corrente elétrica circula e o posiciona em um campo magnético uniforme. Ao inverter a direção da corrente elétrica no fio, o estudante nota que a força exercida sobre o condutor também se inverte. Essa situação é um exemplo da interação entre campos elétricos e magnéticos que pode ser explicada por qual dos seguintes princípios?
+
+A) A Lei de Faraday, que afirma que uma corrente elétrica é gerada por um campo elétrico em movimento.
+B) A Lei de Ampère, que descreve a força entre dois condutores que transportam corrente elétrica na mesma direção.
+C) A Lei de Lenz, que define a direção de uma corrente induzida em um circuito devido à variação de um campo magnético.
+D) A Regra da Mão Direita, que relaciona a direção da corrente elétrica, do campo magnético e da força sobre o condutor."
+Me envie uma questão de história do Brasil sobre a Era Vargas.,"A Era Vargas foi o período de quinze anos da história brasileira que se estendeu de 1930 a 1945 e no qual Getúlio Vargas era o presidente do país. A ascensão de Vargas ao poder foi resultado direto da Revolução de 1930, que destituiu Washington Luís e impediu a posse de Júlio Prestes (presidente eleito que assumiria o país). Durante esse tempo, Vargas promoveu a centralização do poder e enfrentou diversas conturbações políticas, como a Revolução Constitucionalista de 1932, quando setores da sociedade clamaram por um novo marco legal e a convocação de uma nova assembleia constituinte. Disponível em: https://brasilescola.uol.com.br/historiab/era-vargas.htm. Acesso em: 28 out. 2023
+
+A Revolução Constitucionalista de 1932 foi um dos momentos marcantes da Era Vargas. Qual das alternativas a seguir descreve corretamente um dos principais motivos que levaram a essa revolta?
+
+A) A insatisfação dos paulistas com a política centralizadora de Vargas, que não convocava novas eleições e manteve a dissolução do Congresso Nacional.
+B) A defesa do caráter monárquico do Brasil, onde os paulistas desejavam a restauração da monarquia como forma de governo.
+C) A vontade da população de São Paulo de apoiar a entrada do Brasil na Segunda Guerra Mundial ao lado das potências aliadas.
+D) A busca dos paulistas pela ampliação dos direitos políticos das mulheres, que ainda eram restritos durante o governo de Vargas."
+Quero uma questão de biologia sobre genética.,"Os genes alelos são aqueles que ocupam o mesmo lócus em cromossomos homólogos e estão envolvidos na determinação de um mesmo caráter. Os alelos podem ser dominantes ou recessivos, influenciando o fenótipo do organismo de diferentes maneiras. Quando um alelo dominante está presente, ele pode mascarar a expressão do alelo recessivo, resultando em características fenotípicas específicas.
+
+Em um experimento de genética, um cientista analisou uma planta que apresenta flores vermelhas, determinada por um gene com dois alelos: R (flor vermelha, dominante) e r (flor branca, recessivo). Considerando que uma planta com genótipo Rr foi polinizada por outra planta com genótipo rr, qual será a razão esperada dos fenótipos das flores na geração resultante?
+
+A) 75% de flores vermelhas e 25% de flores brancas, pois o alelo dominante predominaria.
+B) 50% de flores vermelhas e 50% de flores brancas, resultado da combinação dos alelos dos pais.
+C) 100% de flores vermelhas, já que todas as plantas herdarão pelo menos um alelo dominante.
+D) 25% de flores vermelhas e 75% de flores brancas, pois o alelo recessivo se expressaria mais frequentemente."
+Pode gerar uma questão de química sobre pH e soluções?,"O pH corresponde ao potencial hidrogeniônico de uma solução. Ele é determinado pela concentração de íons de hidrogênio (H+) e serve para medir o grau de acidez ou alcalinidade. O pH é representado em uma escala numérica que varia de 0 a 14, sendo que o valor 7 é considerado neutro, valores abaixo de 7 indicam soluções ácidas e acima de 7, soluções alcalinas.
+
+Durante um experimento em laboratório, um estudante avaliou cinco soluções aquosas e obteve os seguintes valores de pH: Solução A: pH 3, Solução B: pH 7, Solução C: pH 9, Solução D: pH 10 e Solução E: pH 6. Com base nesses dados, o estudante concluiu que a Solução A é altamente ácida. Qual das alternativas abaixo apresenta uma interpretação correta sobre as soluções analisadas e a escala de pH?
+
+A) A Solução A é considerada neutra, enquanto a Solução D é básica.
+B) A Solução B é ácida, uma vez que seu pH é 7.
+C) A Solução C é básica, já que seu pH está acima de 7, indicando alcalinidade.
+D) A Solução E é ácida, pois seu pH é menor que 7."
+Quero uma questão de geografia sobre globalização.,"A Globalização é um fenômeno mundial que integra economias, culturas e sociedades por meio de uma rede complexa de trocas. Embora a globalização tenha trazido vantagens, como o aumento do intercâmbio cultural, também acarretou desvantagens, como a homogeneização de culturas e a crescente exploração dos recursos naturais.Disponível em: https://brasilescola.uol.com.br/geografia/globalizacao.htm. Acesso em: 28 out. 2023
+
+A globalização representa um fenômeno importante no mundo contemporâneo, caracterizado pela interconexão entre países e culturas. Considerando as causas e efeitos da globalização mencionados no texto de apoio, qual das alternativas a seguir reflete uma consequência significativa desse processo?
+
+A) A formação de um governo centralizado que regula o comércio internacional e elimina todas as barreiras econômicas.
+B) A homogeneização cultural, que resulta na perda de identidades culturais locais em prol de um estilo de vida globalizante.
+C) A diminuição das interações sociais entre comunidades locais, com a restrição do comércio a apenas produtos nacionais.
+D) O fortalecimento das economias locais, garantindo que todos os produtos sejam produzidos e consumidos dentro do mesmo país."
+Me dá uma questão de filosofia sobre empirismo.,"Empirismo é uma vertente da teoria moderna do conhecimento que defende que a origem do conhecimento e das ideias advém da experiência. O empirismo é uma corrente filosófica que acredita que o conhecimento só pode ser obtido através das experiências sensoriais, pois a razão, por si só, não é capaz de gerar informações que tenham valor compreensível. Os filósofos empiristas criticam o racionalismo e suas teorias representam uma inversão na concepção de como o conhecimento era concebido no período da Idade Moderna. Disponível_em : https://mundoeducacao.uol.com.br/filosofia/empirismo.htm
+
+O empirismo é uma corrente filosófica que se opõe ao racionalismo. Segundo essa visão, o conhecimento é oriundo das experiências sensoriais. Considerando essa abordagem, assinale a alternativa que apresenta uma implicação significativa do empirismo na construção do conhecimento:
+
+A) O conhecimento é considerado inato, já que todas as ideias estão presentes na razão desde o nascimento.
+B) A validação do conhecimento é feita unicamente através da lógica, dispensando a verificação empírica.
+C) As experiências práticas são fundamentais para o desenvolvimento de teorias e conceitos que fundamentam a ciência.
+D) O empirismo sustenta que a razão humana é suficiente para apreender a verdade sem a necessidade de provas sensoriais."
+Gere uma questão de português sobre interpretação de texto.,"O teatro é um gênero artístico que tem como finalidade a representação de histórias por meio de diálogos, gestos e encenações. Desde a Antiguidade, a peça teatral é uma forma de comunicação que permite ao público vivenciar diferentes emoções ao longo da narrativa. O gênero pode ser dividido em drama, comédia, tragédia, entre outros, cada um com características específicas que influenciam a recepção do espectador. O enredo de uma peça é organizado em atos e cenas, oferecendo ao espectador uma estrutura narrativa que, por sua vez, busca estabelecer uma conexão emocional entre os personagens e o público. Além disso, a encenação visual e sonora transforma a experiência da obra, ampliando seu impacto e significado. A compreensão desse contexto é essencial para uma análise mais profunda da arte teatral.
+
+Considerando o contexto apresentado no texto de apoio, qual das seguintes afirmativas reflete uma característica fundamental do gênero teatral e sua relação com o público?
+
+A) Os diálogos em uma peça teatral são meramente descritivos, não afetando a emoção do público.
+B) A estrutura narrativa do teatro busca criar uma conexão emocional entre personagens e espectadores.
+C) As encenações teatrais são independentes das emoções que a história provoca no público.
+D) O gênero teatral não necessita de uma organização estruturada em atos e cenas para comunicar suas histórias."
+Quero uma questão de matemática sobre matrizes.,"1) Resolva o seguinte sistema linear utilizando a regra de Cramer: 2x + 3y = 5 e 4x - y = 1.
+
+Um engenheiro está projetando um novo modelo de ponte e precisa calcular a carga máxima que a estrutura pode suportar. Para isso, ele formulou um sistema de equações lineares que representa as forças em diferentes partes da ponte. Dentre essas equações, o engenheiro precisa resolver as seguintes: 2x + 3y = 5 e 4x - y = 1, onde x e y representam as forças em kilonewtons (kN). Qual é o valor da força y, em kN, que o engenheiro deve considerar para que a ponte tenha segurança estrutural?
+
+A) 1 kN
+B) 2 kN
+C) 3 kN
+D) 4 kN"
+Manda uma questão de física sobre termodinâmica.,"A Primeira Lei da Termodinâmica se relaciona com o princípio da conservação da energia. De acordo com essa lei, a energia não pode ser criada nem destruída, apenas transformada. A Segunda Lei da Termodinâmica, por outro lado, trata da direcionalidade dos processos naturais e introduz o conceito de entropia, afirmando que em qualquer processo espontâneo, a entropia do universo tende a aumentar.
+
+Durante a análise de um sistema termodinâmico, um físico observa que a energia total do sistema se mantém constante enquanto a entropia aumenta durante uma reação. Com base nas Leis da Termodinâmica, qual das alternativas abaixo melhor descreve esse fenômeno?
+
+A) A energia é criada durante a reação, alterando a entropia do sistema.
+B) A energia é convertida de uma forma para outra, mas a entropia do sistema permanece constante.
+C) A energia total do sistema se conserva, mas a entropia aumenta, indicando um processo espontâneo maior que o zero.
+D) A energia é destruída na reação, levando a um aumento da entropia."
+Preciso de uma questão de sociologia sobre movimentos sociais.,"Os movimentos sociais são ações coletivas mantidas por grupos organizados da sociedade que visam lutar por alguma causa social. Em geral, o grito levantado por esses grupos se dá em busca de mudanças sociais, políticas, econômicas e culturais. No Brasil, diversos movimentos têm se destacado ao longo das décadas, como o Movimento dos Trabalhadores Rurais Sem Terra (MST) e o Movimento dos Trabalhadores Sem Teto (MTST). Cada um desses movimentos responde a demandas e necessidades específicas da população brasileira, refletindo as desigualdades e os anseios por justiça social. Com isso, é possível entender as causas que impulsionam esses cidadãos a se organizarem em busca de uma sociedade mais equitativa. Disponível em: https://brasilescola.uol.com.br/sociologia/movimentos-sociais-breve-definicao.htm. Acesso em: 28 out. 2023
+
+Considerando o contexto apresentado no texto de apoio, qual das alternativas abaixo indica uma consequência direta da atuação dos movimentos sociais citados?
+
+A) Aumento da desigualdade social, uma vez que os movimentos competem entre si por recursos escassos.
+B) Mobilização da população em busca de direitos e melhorias nas condições de vida, resultando em mudanças sociais significativas.
+C) Desvalorização da política institucional, levando ao desencanto da população com os meios democráticos de mudança.
+D) Individualização das lutas sociais, onde cada grupo atua de forma isolada, sem articulação com outras causas."
+Me envie uma questão de história sobre a Guerra Fria.,"A Guerra Fria foi marcada por diversas tensões entre os Estados Unidos e a União Soviética, destacando eventos como a Guerra da Coreia e a Crise dos Mísseis em Cuba. Este período não apenas evidenciou as rivalidades ideológicas entre o capitalismo e o socialismo, mas também teve consequências globais significativas, refletindo-se em diversas áreas, como a política internacional, a economia e a cultura.
+
+Com base no contexto apresentado, assinale a alternativa que melhor descreve uma consequência geopolítica relevante da Guerra Fria, levando em consideração eventos como a Guerra da Coreia e a Crise dos Mísseis em Cuba:
+
+A) A unificação da Coreia do Norte e da Coreia do Sul sob um único governo comunista, estabelecendo um modelo socialista na península coreana.
+B) O fortalecimento das organizações militares regionais, como a NATO, que buscavam garantir a segurança coletivas contra uma suposta ameaça soviética.
+C) A imposição de um modelo econômico socialista em todos os países do mundo, resultando na transformação de todas as economias para o comunismo.
+D) O fim imediato das tensões entre os Estados Unidos e a União Soviética, deixando de lado as rivalidades ideológicas e promovendo a paz global."
+Quero uma questão de biologia sobre sistema imunológico.,"O sistema imunológico é um complexo conjunto de células e proteínas que defende o corpo contra agentes patogênicos, como vírus, bactérias e fungos. Os leucócitos, também conhecidos como glóbulos brancos, desempenham papéis cruciais nessa defesa. Dentre as células mais importantes estão os linfócitos T e B, que são fundamentais tanto na resposta imune inata quanto na adquirida. Os linfócitos T, por exemplo, ajudam a eliminar células infectadas, enquanto os linfócitos B são responsáveis pela produção de anticorpos. A eficácia do sistema imunológico depende da interação coordenada dessas células e dos mecanismos de defesa que elas mobilizam contra as infecções. Disponível em: https://brasilescola.uol.com.br/biologia/sistema-imunologico-humano.htm. Acesso em: 28 out. 2023
+
+Em uma análise sobre as funções do sistema imunológico, observa-se que o diferencial entre os tipos de resposta imune está relacionado tanto ao tipo de célula envolvida quanto ao modo como o organismo reconhece e combate os patógenos. Considerando essa afirmação, quais das opções a seguir contemplam corretamente os papéis dos linfócitos T e B na resposta imunológica?
+
+A) Os linfócitos T produzem anticorpos que neutralizam as células infectadas, enquanto os linfócitos B atuam na fagocitose dos patógenos.
+B) Os linfócitos T são responsáveis pela produção de anticorpos, enquanto os linfócitos B ajudam na eliminação de células infectadas.
+C) Os linfócitos T reconhecem células infectadas e as destroem diretamente, enquanto os linfócitos B produzem anticorpos específicos contra antígenos.
+D) Ambos os linfócitos T e B atuam na resposta inata, sem diferenciação nas suas funções específicas de memória."
+Gera uma questão de química sobre tabela periódica.,"Os grupos são as colunas da tabela periódica e reúnem elementos com propriedades similares e igual número de elétrons de valência. Os períodos são as linhas da tabela periódica e acomodam elementos com o mesmo número de camadas eletrônicas ocupadas. Ao todo, 18 grupos formam a Tabela Periódica. Muitos elementos destes grupos estão relacionados de acordo com suas propriedades químicas.
+
+Durante um laboratório de ciências, os alunos estudam os diferentes grupos da tabela periódica e suas propriedades. Eles observam que os elementos do grupo dos halogênios, por exemplo, são muito reativos e possuem 7 elétrons em sua camada de valência. Com base nessa informação, o que se pode concluir sobre as características e o comportamento desses elementos em reações químicas?
+
+A) Os halogênios são pouco reativos devido à presença de 7 elétrons na camada de valência, tornando-os estáveis.
+B) Os halogênios tendem a ganhar um elétron para completar sua camada de valência, formando ânions com carga -1.
+C) Os halogênios são metais pesados que se comportam como cátions em reações químicas.
+D) Os halogênios possuem alta eletronegatividade, mas não participam de ligações covalentes devido à sua energia de ionização elevada."
+Quero uma questão de geografia sobre urbanização.,"A urbanização brasileira, embora tenha trazido avanços significativos em termos de infraestrutura e economia, também resultou em graves problemas sociais e ambientais. Um dos efeitos mais notórios da urbanização desordenada é a ampliação das desigualdades sociais, além do agravamento da poluição ambiental e a escassez de recursos naturais. Isso levanta questionamentos sobre a eficácia das políticas urbanas implementadas para mitigar esses problemas.
+
+Considerando o contexto da urbanização no Brasil, descrito no texto de apoio, qual das alternativas abaixo melhor expressa um desafio significativo que as cidades enfrentam devido ao crescimento urbano acelerado?
+
+A) Redução do número de trabalhadores nas áreas rurais devido ao aumento de profissão no setor agrícola.
+B) Ampliação das desigualdades sociais e aumento da poluição ambiental nas grandes cidades.
+C) Desenvolvimento de áreas rurais como centros comerciais de grande porte.
+D) Aumento das áreas verdes urbanas sem necessidade de intervenção pública."
+Me dá uma questão de filosofia sobre ética.,"A questão não está mais em se um homem é honesto, mas se é inteligente. Não há moralidade nas ações se o objetivo final não é capaz de justificar o ato realizado. Isto reduz os princípios morais a meras convenções sociais.
+
+Com base na reflexão apresentada no texto acima, a ética utilitarista sustenta que as ações devem ser avaliadas por suas consequências. Assim, a ação correta é aquela que maximiza a utilidade ou a felicidade. Considerando essa premissa, qual das alternativas a seguir melhor representa um possível dilema ético sob a ótica utilitarista?
+
+A) Decidir não interferir no sofrimento de uma pessoa, pois isso não trará felicidade à maioria das pessoas ao seu redor.
+B) Realizar um ato desonesto para garantir um benefício financeiro a si próprio, justificando pela necessidade.
+C) Privar uma pessoa de liberdade para promover o bem-estar de um grupo maior, pois a felicidade coletiva deve prevalecer.
+D) Seguir princípios morais rígidos que estabelecem que agir de forma correta é sempre mais importante do que avaliar resultados."
+Manda uma questão de português sobre funções da linguagem.,"As seis funções da linguagem são: poética, emotiva ou expressiva, conativa ou apelativa, metalinguística, fática e referencial ou denotativa. Cada função da linguagem está associada a um aspecto da comunicação e atua de maneira diferente conforme a intenção do emissor.
+
+Em uma apresentação escolar sobre as diferentes funções da linguagem, um aluno leu um trecho de um poema seguido de um discurso publicitário. Considerando essas formas de comunicação, qual das alternativas a seguir define corretamente a função da linguagem predominante em cada caso?
+
+A) A função poética no poema, focando na estética das palavras, e a função conativa no discurso publicitário, buscando persuadir o ouvinte.
+B) A função emotiva no poema, expressando sentimentos, e a função referencial no discurso publicitário, transmitindo informações objetivas.
+C) A função fática no poema, mantendo o contato social com o público, e a função metalinguística no discurso publicitário, explicando os recursos da linguagem.
+D) A função referencial no poema, delimitando o sentido literal, e a função emotiva no discurso publicitário, expressando sentimentos do autor."
+Preciso de uma questão de matemática sobre análise combinatória.,"Em muitos exercícios desse assunto, podemos utilizar tanto o princípio fundamental da contagem, como também as fórmulas de arranjo, permutação e combinação. Disponível em: https://www.todamateria.com.br/exercicios-de-analise-combinatoria/, Acesso em: 28 out. 2023
+
+Uma escola está organizando um torneio de matemática e precisa formar equipes compostas por 3 alunos diferentes de um grupo de 10 estudantes. Considerando que a ordem dos alunos nas equipes não importa, quantas combinações diferentes de equipes podem ser formadas?
+
+A) 120
+B) 210
+C) 720
+D) 90"
+Quero uma questão de física sobre óptica geométrica.,"A luz pode ser refletida, refratada ou absorvida ao encontrar uma superfície. A reflexão é o fenômeno pelo qual a luz muda de direção ao atingir uma superfície, enquanto a refração é a mudança de direção da luz ao passar de um meio para outro diferente. Quando a luz passa do ar para a água, por exemplo, ela se refrata, e essa alteração no ângulo de refração pode ser calculada usando a Lei de Snell. Os espelhos são um exemplo clássico de reflexão, onde a imagem de um objeto é formada devido à reflexão da luz. Já as lentes aproveitam a refração para formar imagens, sendo utilizadas em diversos dispositivos ópticos. Disponível em: https://www.infoescola.com/fisica/reflexao-e-refracao-da-luz/. Acesso em: 28 out. 2023
+
+Um estudante de física realizou um experimento em que utilizou um espelho plano e uma lente convergente. Ele posicionou um objeto a 30 cm do espelho, que refletiu a luz conforme a Lei da Reflexão, e depois usou uma lente com distância focal de 15 cm, posicionada a 20 cm do objeto, para observar a formação de uma imagem. Com base nos conceitos de reflexão e refração, qual das afirmações a seguir está correta sobre a imagem formada nesse cenário?
+
+A) A imagem formada pelo espelho é virtual e do mesmo tamanho que o objeto, enquanto a lente forma uma imagem real e reduzida.
+B) A imagem formada pelo espelho é real e invertida, enquanto a lente forma uma imagem virtual e aumentada.
+C) A imagem refletida pelo espelho é virtual e invertida, enquanto a lente não forma imagem, pois a distância do objeto é menor que a distância focal.
+D) A imagem formada pelo espelho é virtual e aumentada, enquanto a lente forma uma imagem real e do mesmo tamanho que o objeto."
+Me envie uma questão de história sobre o Império Romano.,"O Império Romano foi a terceira fase da civilização romana, que se estendeu aproximadamente do século I a.C. até o século V d.C., alcançando sua máxima expansão territorial sob o governo de imperadores como Trajano. Este vasto império dominou regiões que hoje correspondem à maioria dos países da Europa Ocidental, ao norte da África e ao Oriente Médio. Para manter essa enorme extensão territorial, Roma criou uma estrutura administrativa baseada em províncias, cada uma sob a supervisão de governadores. Além disso, a riqueza cultural que emergiu nesse período, resultante da intersecção de diversas tradições, deixou legados significativos nas áreas de direito, arquitetura e língua, muitos dos quais permanecem na civilização ocidental moderna. Disponível em: https://brasilescola.uol.com.br/historiag/império-romano.htm. Acesso em: 28 out. 2023
+
+Com base no texto de apoio, qual das alternativas a seguir apresenta corretamente um aspecto relacionado à estrutura política e às contribuições culturais do Império Romano?
+
+A) O Império Romano foi caracterizado por uma estrutura de governança descentralizada, onde cada província tinha total autonomia, resultando na fragmentação do poder em várias regiões.
+B) O crescimento das províncias romanas levou ao fortalecimento do poder dos senadores, que passaram a exercer maior controle sobre os assuntos locais, reduzindo assim a importância dos governadores nomeados.
+C) A absorção cultural das províncias conquistadas resultou em uma rica tradição que influenciou significativamente o direito e a arquitetura, destacando a importância da cultura romana até os dias atuais.
+D) A cultura romana era exclusivamente baseada nas tradições locais, sem influência das civilizações com as quais estabeleceu contato, levando a um isolamento cultural."
+Gera uma questão de biologia sobre ciclo do carbono.,"Os processos de fotossíntese e respiração são essenciais nesse ciclo, pois permitem que o carbono seja utilizado e liberado pelos seres vivos. Na fotossíntese, os organismos autótrofos convertem o carbono na forma de CO2 em compostos orgânicos, enquanto na respiração, os heterótrofos consomem esses compostos, liberando o carbono de volta para a atmosfera na forma de CO2. Disponível em: https://brasilescola.uol.com.br/biologia/ciclo-carbono.htm. Acesso em: 28 out. 2023
+
+Durante um experimento em sala de aula, um professor pediu aos alunos que desenhassem o ciclo do carbono, destacando os processos de fotossíntese e respiração. Considerando esse contexto, qual das alternativas a seguir descreve corretamente o impacto combinado desses processos sobre o ciclo do carbono no meio ambiente?
+
+A) Aumentam a quantidade de carbono na forma de carbono orgânico no solo, mas reduzem a quantidade de CO2 na atmosfera, contribuindo para o efeito estufa.
+B) Permitem que o carbono seja fixado na biomassa durante a fotossíntese e, posteriormente, liberado na atmosfera através da respiração, equilibrando o nível de CO2.
+C) Durante a fotossíntese, convertem o CO2 da atmosfera em oxigênio, e na respiração, o oxigênio é transformado de volta em CO2, sem alterar os níveis de carbono na natureza.
+D) Os processos de fotossíntese e respiração mantêm constantes as concentrações de carbono atmosférico, já que uma reação compensa exatamente a outra."
+Quero uma questão de química sobre reações de oxirredução.,"Uma reação de oxidorredução é aquela em que ocorre transferência de elétrons entre espécies químicas. Durante essa transferência, uma das espécies se oxida, que é o processo de perda de elétrons, enquanto a outra se reduz, que é o ganho de elétrons. Um exemplo clássico é a reação entre o zinco metálico e o íon cobre (II), onde o zinco atua como o agente redutor ao perder elétrons e o cobre (II) atua como o agente oxidante ao ganhar elétrons. Isso ilustra claramente a dinâmica entre oxidantes e redutores nas reações redox, sendo um conceito chave na química. Disponível em: https://www.todamateria.com.br/reacoes-de-oxirreducao/. Acesso em: 28 out. 2023.
+
+Em uma reação de oxidorredução, é essencial compreender os papéis que os reagentes desempenham, especialmente em relação à transferência de elétrons. Considere a seguinte reação: Zn (s) + Cu²⁺ (aq) → Zn²⁺ (aq) + Cu (s). Sobre essa reação, analise as afirmações a seguir: I. O zinco é o agente redutor, pois se oxida ao perder elétrons. II. O cobre (II) é o agente oxidante, pois se reduz ao ganhar elétrons. III. O número de oxidação do zinco aumenta durante a reação. Quais dessas afirmativas estão corretas?
+
+A) Apenas I e II estão corretas.
+B) Apenas II e III estão corretas.
+C) Apenas I e III estão corretas.
+D) I, II e III estão corretas."
+Me dá uma questão de geografia sobre migração populacional.,"A migração corresponde aos deslocamentos de pessoas e populações na superfície terrestre. Esse movimento pode ocorrer de forma espontânea ou forçada. Os fatores que motivam esses deslocamentos são variados, incluindo a busca por melhores condições de vida, trabalho, essencialmente ligados a mudanças econômicas, sociais e ambientais em regiões de origem e destino.
+
+Com base no contexto apresentado no texto de apoio, é correto afirmar que os processos migratórios podem ser impulsionados por uma série de fatores. Considerando as características das migrações contemporâneas, assinale a alternativa que melhor exemplifica um tipo de migração forçada.
+
+A) Trabalhadores qualificados que se mudam entre países em busca de oportunidades melhor remuneradas.
+B) Familiares que se relocam para áreas urbanas na busca de melhores condições de vida.
+C) Refugiados que abandonam seu país de origem devido a guerras ou perseguições políticas.
+D) Estudantes que viajam para o exterior com o intuito de completar sua formação acadêmica."
+Pode gerar uma questão de sociologia sobre cultura e identidade?,"A identidade cultural pode ser entendida como um conjunto de características, valores, crenças e práticas que definem um grupo social e o diferenciam de outros. A identidade cultural não é fixa ou essencial, mas sim um processo contínuo de construção e transformação.
+
+No contexto das sociedades contemporâneas, a identidade cultural assume um papel crucial na formação de grupos sociais, refletindo suas especificidades e distinções. Entretanto, a dinâmica de construção e transformação da identidade pode levar a conflitos e embates sociais. Considerando esse cenário, analise as afirmações a seguir e escolha a alternativa que melhor sintetiza a relação entre cultura e identidade:
+
+A) A identidade cultural é estática e imutável, refletindo sempre as tradições ancestrais de um grupo social.
+B) A identidade cultural é um processo dinâmico, influenciado por fatores externos como globalização e migração, que traz novos elementos para o grupo.
+C) A identidade cultural representa apenas os aspectos negativos das relações sociais, criando divisões e conflitos irreconciliáveis entre grupos.
+D) A identidade cultural é irrelevante na formação da sociedade moderna, já que todos compartilham uma cultura global homogênea devido à tecnologia."
+Quero uma questão de filosofia sobre Kant.,"Introduziu o conceito do imperativo categórico, uma regra fundamental que estabelece que devemos agir somente segundo máximas que podem ser elevadas à condição de lei universal. Essa ideia central de Kant implica que as ações morais não devem ser guiadas por interesses pessoais, mas sim pela consideração de que as regras que adotamos podem ser aplicadas de forma universal. A moralidade, assim, entra na esfera de um dever ético que transcende a mera experiência ou as consequências individuais. Disponível em: https://tirant.com/noticias-tirant/noticia-kant-su-filosofia-y-legado-en-el-pensamiento-moderno/. Acesso em: 28 out. 2023
+
+A filosofia moral de Immanuel Kant, centrada no imperativo categórico, propõe que a ação deve ser considerada moral apenas se puder ser universalizada. Com base nessa ideia, qual das situações abaixo melhor representa uma ação que pode ser justificada segundo o imperativo categórico?
+
+A) Um estudante cola em uma prova para garantir uma nota alta, considerando que isso não prejudicará ninguém.
+B) Uma pessoa faz uma doação anônima para uma instituição de caridade, buscando reconhecimento público por sua generosidade.
+C) Um funcionário mente sobre um erro cometido no trabalho, pensando que a verdade poderia prejudicar a empresa.
+D) Um voluntário decide trabalhar em um abrigo, acreditando que todos deveriam se comprometer a ajudar os mais necessitados."
+Me envie uma questão de português sobre conectivos.,"Os conectivos são palavras que ligam diferentes ideias, frases ou parágrafos, permitindo uma transição fluida entre as partes do texto. Eles desempenham um papel crucial na organização textual, ajudando a estabelecer relações lógicas entre as informações apresentadas. O uso adequado desses conectivos pode influenciar a coesão e coerência do texto, facilitando a compreensão pelo leitor.
+
+Com base no texto apresentado, considere as frases abaixo e identifique qual alternativa contém um uso incorreto do conectivo destacado que compromete a coesão do texto.
+
+A) Ele se esforçou bastante; **portanto**, foi promovido pela diretoria.
+B) Ela não estava preparada; **porém**, conseguiu realizar a tarefa com êxito.
+C) O projeto foi bem recebido; **embora** apresentasse algumas falhas que precisam ser corrigidas.
+D) Havia muitas opções disponíveis, **logo**, escolheu a mais barata."
+Gere uma questão de matemática sobre geometria espacial.,"Volume de um sólido geométrico é o espaço que esse sólido ocupa. Para calcular o volume do sólido geométrico, como o prisma e o cone, existem fórmulas que dependem da forma do sólido. Vamos conhecer algumas dessas fórmulas!
+
+Um reservatório cilíndrico de água tem 2 metros de altura e um raio da base de 1 metro. Considerando que ele está completamente cheio, qual é o volume total de água que o reservatório pode armazenar? Utilize a fórmula do volume do cilindro, dada por V = π r² h, onde V é o volume, r é o raio da base e h é a altura do cilindro.
+
+A) 6,28 m³
+B) 3,14 m³
+C) 12,57 m³
+D) 9,42 m³"
+Quero uma questão de física sobre movimento uniformemente variado.,"O movimento uniformemente variado (MUV) é o tipo de movimento que tem uma aceleração constante e não nula, ou seja, a velocidade varia uniformemente ao longo do tempo. Isso significa que, a cada intervalo de tempo igual, a variação da velocidade é sempre a mesma. Tal movimento reflete em diversas situações do cotidiano, sendo importante para o entendimento de fenômenos do dia a dia, como a aceleração de veículos em uma estrada ou a queda de objetos.
+
+Um carro parte do repouso e acelera uniformemente a 2 m/s² ao longo de uma estrada retilínea. Determine a distância percorrida pelo carro após 5 segundos de movimento. Utilize a fórmula do movimento uniformemente variado: s = s₀ + v₀t + (1/2)at², onde s é a posição final, s₀ é a posição inicial, v₀ é a velocidade inicial, a é a aceleração e t é o tempo. Considere que a posição inicial s₀ = 0 e a velocidade inicial v₀ = 0.
+
+A) 10 metros
+B) 15 metros
+C) 25 metros
+D) 50 metros"
+Me dá uma questão de história sobre o Iluminismo.,"Os principais filósofos iluministas foram os enciclopedistas franceses Voltaire, Montesquieu, Rousseau, Diderot e d'Alambert. Cada um deles contribuiu com obras e ideias que fundamentaram a crítica ao absolutismo e a promoção da liberdade política e de expressão. Os iluministas acreditavam que a aplicabilidade da razão levaria a humanidade a um progresso que seria capaz de formar uma sociedade perfeita, onde todos os indivíduos seriam livres e iguais, eliminando os privilégios de classe e do clero. Além disso, o Iluminismo promoveu a valorização do uso da razão e dos princípios do Liberalismo Político, propondo ideias de liberdade, igualdade e fraternidade, e criticando o absolutismo e o dogmatismo presentes na sociedade da época. Disponível em: https://www.todamateria.com.br/iluminismo/. Acesso em: 28 out. 2023
+
+Analisando os conceitos apresentados no texto de apoio, qual das seguintes alternativas demonstra de forma mais precisa uma influência significativa do Iluminismo na sociedade moderna?
+
+A) A criação de um sistema de governo baseado em monarquias absolutas, onde o poder do rei é legitimado por uma divindade.
+B) A promoção da igualdade de direitos e da liberdade individual, garantindo a participação cidadã e crítica nas decisões políticas.
+C) A defesa dos privilégios de classe e das estruturas hierárquicas que sustentavam o capitalismo industrial.
+D) O fortalecimento de dogmas religiosos e a defesa de uma moral cristã rígida como base da sociedade."
+Manda uma questão de biologia sobre evolução das espécies.,"A seleção natural é um dos principais mecanismos que propiciam a evolução das espécies. Através dela, indivíduos com características vantajosas adaptam-se melhor ao seu ambiente e, assim, têm maior chance de sobrevivência e reprodução. Este processo resulta em modificações graduais nas populações ao longo do tempo, levando à formação de novas espécies a partir de ancestrais comuns. A adaptação é uma resposta direta às pressões ambientais, e a especiação é frequentemente um resultado da acumulação dessas adaptações ao longo de várias gerações. Disponível em: https://brasilescola.uol.com.br/biologia/selecao-natural.htm. Acesso em: 28 out. 2023
+
+Considerando o papel da seleção natural no processo de evolução das espécies, analise as afirmações a seguir e assinale a alternativa que melhor descreve como a seleção natural contribui para a especiação.
+
+A) A seleção natural favorece a reprodução sexual, resultando em maior variabilidade genética, mas não influencia as adaptações ambientais.
+B) A seleção natural favorece características que aumentam a sobrevivência dos indivíduos em um determinado ambiente, o que pode levar à formação de novas espécies devido ao acúmulo de adaptações.
+C) A seleção natural atua de forma rápida, produzindo mudanças drásticas nas populações, resultando, imediatamente, na formação de novas espécies.
+D) A seleção natural elimina todas as variações dentro de uma população, garantindo que somente as características indesejadas permaneçam, favorecendo a especiação."
+Preciso de uma questão de química sobre gases.,"A Lei de Boyle estabelece que, para uma quantidade fixa de gás a temperatura constante, a pressão do gás é inversamente proporcional ao seu volume. Em outras palavras, se aumentarmos o volume de um gás, sua pressão diminuirá, desde que a temperatura permaneça constante. A Lei de Charles expressa a relação direta entre o volume e a temperatura de um gás ideal, mantendo a pressão constante. Segundo esta lei, o volume aumenta quando a temperatura aumenta, e diminui quando a temperatura diminui. A Lei de Avogadro relaciona o volume de um gás com a quantidade de moléculas que ele contém, estabelecendo que volumes iguais de gases diferentes, nas mesmas condições de temperatura e pressão, contêm o mesmo número de moléculas.
+
+Em um experimento, um balão cheio de gás é colocado em um ambiente com temperatura constantemente elevada. Durante o aquecimento, observa-se que o balão se expande. A partir do que foi estudado sobre as leis dos gases, assinale a alternativa correta que descreve o comportamento do gás no balão, considerando as leis de Boyle, Charles e Avogadro.
+
+A) O aumento da temperatura mantém a pressão constante e provoca redução do volume no balão.
+B) O aumento da temperatura provoca o aumento do volume do gás, mantendo a pressão constante, como estabelecido pela Lei de Charles.
+C) A pressão do gás aumenta quando o volume do balão se expande, independentemente da temperatura.
+D) A Lei de Avogadro afirma que, em condições de temperatura e pressão constantes, a massa do gás é proporcional ao seu volume."
+Quero uma questão de geografia sobre fontes de energia renovável.,"As energias renováveis destacam-se por sua capacidade de oferecer alternativas sustentáveis às fontes tradicionais, como os combustíveis fósseis. Dentre as principais vantagens, estão a inesgotabilidade e os impactos negativos reduzidos sobre o meio ambiente. No entanto, algumas fontes, como a solar e a eólica, enfrentam desafios relacionados aos altos investimentos iniciais e à variabilidade de produção que pode depender de fatores climáticos e geográficos. Com o aumento da demanda por energia limpa, a compreensão dos trade-offs entre as diversas formas de energia renovável se torna fundamental.
+
+Considerando as características das fontes de energia renovável, analise as alternativas a seguir e identifique qual delas apresenta uma desvantagem significativa associada a essas fontes de energia.
+
+A) A produção de energia eólica pode ser afetada pela irregularidade do vento, limitando sua eficiência em determinadas regiões.
+B) As fontes de energia renovável geram poluição significativa em sua fase de instalação, como ocorre com as termelétricas.
+C) A energia solar requer a queima de combustíveis fósseis para a sua geração, aumentando a emissão de gases poluentes.
+D) A energia hidrelétrica é completamente isenta de custos de manutenção e construção, tornando-se uma opção inferior às fontes não renováveis."
+Gere uma questão de sociologia sobre trabalho e sociedade.,"O trabalho é a atividade por meio da qual o ser humano produz e se organiza na sociedade, podendo ser visto sob vários aspectos, como o econômico, o social e o cultural. É importante ressaltar que as diferentes formas de trabalho, como o trabalho assalariado e o trabalho informal, influenciam diretamente as dinâmicas de desigualdade social.
+
+A relação entre trabalho e sociedade tem se mostrado de suma importância para a compreensão das desigualdades sociais contemporâneas. A divisão do trabalho e as diferentes formas de inserção no mercado de trabalho não apenas estruturam as relações sociais, mas também determinam a dinâmica das desigualdades baseadas em gênero, raça e classe. Assim, qual das alternativas a seguir melhor representa uma consequência dessa inter-relação no contexto atual?
+
+A) A transformação da estrutura laboral em um modelo excludente, mantido por políticas governamentais que priorizam o trabalho informal.
+B) O fortalecimento das desigualdades sociais, com um aumento na mobilidade social entre as classes menos favorecidas.
+C) A uniformização das condições de trabalho em diferentes setores, promovendo maior equidade entre trabalhadores.
+D) O crescimento de um mercado de trabalho dinâmico que resulta em uma maior valorização das profissões tradicionais."
+Me envie uma questão de filosofia sobre niilismo.,"O niilismo é uma concepção filosófica que rejeita a ideia de que existem valores absolutos ou verdades universais. Essa filosofia pode levar a uma visão de mundo onde os conceitos de certo e errado são considerados subjetivos. Nas esferas ética e existencial, o niilismo propõe que a vida não possui um sentido intrínseco e que a moralidade é uma construção social, resultando em incertezas que permeiam as ações e decisões humanas. Disponível em: https://www.todamateria.com.br/niilismo/. Acesso em: 28 out. 2023
+
+A partir do contexto apresentado, qual das afirmações a seguir melhor sintetiza uma implicação ética do niilismo moral?
+
+A) O niilismo moral promove a ideia de que todos os indivíduos devem seguir normas e valores impostos por uma autoridade superior.
+B) A concepção niilista leva à indiferença moral, onde os indivíduos ignoram as repercussões éticas de suas ações, considerando-as irrelevantes.
+C) O niilismo incentiva o fortalecimento das crenças religiosas como única fonte de significado moral na vida.
+D) Esse tipo de niilismo resulta em um consenso social sobre características universais do bem e do mal que devem ser aceitas por todos."
+Quero uma questão de português sobre figuras de linguagem.,"Figuras de linguagem são palavras ou expressões que destoam da linguagem denotativa. Elas podem ser classificadas como semânticas, de pensamento, de sintaxe e de som. Exemplos como metáfora, comparação, metonímia, catacrese, sinestesia e perífrase estão relacionados diretamente ao significado e à forma como percebemos as realidades ao nosso redor. Disponível em: https://brasilescola.uol.com.br/gramatica/figuras-linguagem.htm. Acesso em: 28 out. 2023
+
+Considerando a definição e os exemplos de figuras de linguagem apresentados no texto de apoio, qual das alternativas a seguir melhor exemplifica uma comparação?
+
+A) A vida é um sonho.
+B) As flores dançam ao vento.
+C) Ela é como uma rosa, bela e delicada.
+D) Ele teve uma ideia luminosa."
+Pode gerar uma questão de matemática sobre estatística descritiva?,"A média é a soma dos valores dividido pelo número de valores. O desvio padrão é a raiz quadrada da variância, que mede a dispersão dos dados em relação à média.
+
+Em uma competição de matemática, cinco alunos foram avaliados com as seguintes notas: 7, 9, 5, 8 e 6. Após a aplicação dos cálculos da média, da mediana e do desvio padrão, o professor gostaria de entender melhor o desempenho geral da turma. Considerando esses dados, qual das seguintes alternativas representa corretamente a média, a mediana e o desvio padrão das notas dos alunos?
+
+A) Média: 7; Mediana: 7; Desvio padrão: 1,58.
+B) Média: 6,5; Mediana: 7; Desvio padrão: 1,87.
+C) Média: 7; Mediana: 6; Desvio padrão: 1,83.
+D) Média: 7; Mediana: 8; Desvio padrão: 1,87."
+Me dá uma questão de física sobre leis de Kepler.,"As leis do movimento planetário de Kepler são conhecidas como: lei das órbitas elípticas, lei das áreas e lei dos períodos. Juntas estas explicam como funciona o movimento dos planetas em torno do Sol. A primeira lei, chamada de lei das órbitas, afirma que 'todo planeta se move em uma órbita elíptica, tendo o Sol em um dos focos'. A segunda lei, ou lei das áreas, diz que 'uma linha imaginária que liga um planeta ao Sol varre áreas iguais em tempos iguais'. Finalmente, a terceira lei, ou lei dos períodos, estabelece que 'o quadrado do período de um planeta é proporcional ao cubo da distância média desse planeta ao Sol'.
+
+As leis de Kepler, formuladas no início do século XVII, revolucionaram a compreensão sobre a movimentação dos corpos celestes. Em particular, a primeira lei de Kepler afirma que os planetas descrevem órbitas elípticas em torno do Sol, o qual está localizado em um dos focos dessa elipse. Essa característica define não apenas a forma do movimento planetário, mas também impacta a dinâmica das forças que agem sobre os corpos celestes. Considerando essas informações, assinale a alternativa correta sobre o movimento dos planetas.
+
+A) Os planetas se movem em órbitas circulares, com velocidade constante, de modo que a distância entre um planeta e o Sol é sempre a mesma.
+B) Os planetas apresentam variação de velocidade em suas órbitas elípticas, cobrindo áreas iguais em intervalos de tempo iguais, mesmo que a distância ao Sol varie.
+C) Os planetas se movem em órbitas circulares, em torno do Sol situado no centro dessas órbitas, o que garante a estabilidade de suas trajetórias.
+D) Os planetas se movem em trajetórias elípticas e, assim, a força gravitacional do Sol provoca uma aceleração centrípeta constante, resultando em velocidade orbital constante."
+Quero uma questão de história sobre o período colonial brasileiro.,"A colonização do Brasil foi o processo de ocupação e povoamento do território brasileiro pelos portugueses entre 1500 e 1822. Nesse processo, os lusitanos enfrentaram diversos desafios, como a resistência dos indígenas que habitavam o país. Desde o início, a relação entre colonizadores e os nativos foi marcada por um complexo jogo de cooperação e conflito, principalmente no que tange à exploração dos recursos naturais e as práticas comerciais estabelecidas através do escambo, que envolviam a troca de mercadorias como utensílios e armas em troca de mão de obra indígena, essencial para as atividades de extração do pau-brasil e cultivo de açúcar.
+
+A partir do contexto histórico da colonização do Brasil, analise a relação entre colonizadores portugueses e os povos indígenas. Qual das alternativas abaixo representa uma característica da interação entre esses grupos durante o período colonial?
+
+A) Os indígenas sempre aceitaram pacificamente a invasão dos colonizadores, permitindo a exploração de suas terras sem resistência.
+B) A relação foi predominantemente de conflito e resistência, mas também envolveu momentos de troca comercial, como o escambo, que integrava os indígenas na economia colonial.
+C) Os portugueses, ao observarem a diversidade cultural indígena, se afastaram e evitaram qualquer tipo de interação como forma de respeito.
+D) A exploração do pau-brasil pelo português, embora inicial, levou à total erradicação das sociedades indígenas locais, sem a formação de laços comerciais."
+Manda uma questão de biologia sobre respiração celular.,"O processo de respiração celular é divido em 3 etapas: Glicólise, que ocorre no citosol; Ciclo de Krebs ou ciclo do ácido cítrico, que ocorre na matriz mitocondrial; e Fosforilação oxidativa ou cadeia respiratória, que ocorre na membrana mitocondrial interna.
+
+Durante o processo de respiração celular, a produção de ATP é alcançada através de uma série de reações que ocorrem em diferentes locais da célula. Essas reações podem ser agrupadas em três estágios principais. Com base nesse contexto, analise as afirmações a seguir: I – Na glicólise, ocorre a quebra inicial da glicose e a formação de NADH. II – O ciclo de Krebs não gera ATP, mas produz NADH e FADH2, que são importantes para a fosforilação oxidativa. III – A fosforilação oxidativa ocorre na membrana mitocondrial interna e é responsável pela maior parte da produção de ATP na respiração celular. Quais afirmações estão corretas?
+
+A) Apenas I.
+B) Apenas II.
+C) I e II.
+D) II e III."
+Gera uma questão de química sobre equilíbrio químico.,"O equilíbrio químico é um fenômeno que acontece nas reações químicas reversíveis entre reagentes e produtos. Quando um sistema químico atinge um equilíbrio, as taxas das reações direta e inversa são iguais, e as concentrações de reagentes e produtos permanecem constantes ao longo do tempo. A constante de equilíbrio (K) é uma relação entre as concentrações ou pressões dos produtos e dos reagentes em equilíbrio, expressando a proporção em que reagentes e produtos estão presentes.
+
+Em um experimento, um sistema químico atinge o equilíbrio na reação reversível de formação do ácido acético (CH₃COOH) a partir do metano (CH₄) e do oxigênio (O₂). A equação da reação é: CH₄(g) + O₂(g) ⇌ CH₃COOH(g). Após alcançar o equilíbrio, a concentração de CH₄ foi reduzida, e a pressão foi aumentada. Com base no conhecimento de equilíbrio químico, analise os efeitos que essa perturbação pode ter sobre as concentrações dos compostos envolvidos. Qual das alternativas a seguir está correta em relação ao que ocorre no equilíbrio desse sistema?
+
+A) Aumenta a concentração de CH₄ e reduz a concentração de CH₃COOH.
+B) Aumenta a concentração de CH₃COOH e reduz a concentração de O₂.
+C) Aumenta a concentração de CH₃COOH devido ao deslocamento do equilíbrio para a direita.
+D) Não provoca alterações significativas nas concentrações dos compostos, pois o equilíbrio se restabelece rapidamente."
+Preciso de uma questão de geografia sobre biomas brasileiros.,"O bioma Amazônia é o maior de todos os biomas brasileiros. Caracteriza-se pela presença de diversos ecossistemas e por deter grande biodiversidade na fauna e na flora. O Pantanal, por sua vez, é o maior pântano do mundo e abriga uma variedade de espécies que dependem de ambientes alagados.
+
+Os biomas brasileiros apresentam diversas características que influenciam suas respectivas biodiversidades e ecossistemas. Considerando essas particularidades, analise as alternativas abaixo sobre os biomas Amazônia e Pantanal e assinale a opção correta:
+
+A) O bioma Amazônia é caracterizado por um clima árido, sendo então propenso à desertificação, enquanto o Pantanal é notório por sua vegetação xerófila.
+B) O Pantanal, por ser o maior pântano do mundo, possui uma fauna e flora adaptadas a ambientes alagados, enquanto a Amazônia abriga uma das maiores biodiversidades do planeta com florestas densas.
+C) Ambos os biomas, Amazônia e Pantanal, compartilham as mesmas características climáticas, apresentando predominantemente climas semiáridos.
+D) Amazônia e Pantanal estão ambos localizados no Sul do Brasil, apresentando relevância simultânea no contexto da agricultura brasileira."

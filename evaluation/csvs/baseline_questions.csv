@@ -1,0 +1,385 @@
+input,output
+Quero uma questão de ENEM sobre funções exponenciais.,"A função exponencial é caracterizada por ter a variável no expoente. Considere a função f(x) = 2^x. Essa função
+é utilizada para modelar o crescimento populacional de uma cidade, onde inicialmente a cidade possui 1000 habitantes.
+A cada ano, a população dobra. Qual será a população da cidade após 5 anos?
+A) 32000 habitantes
+B) 16000 habitantes
+C) 64000 habitantes
+D) 2000 habitantes"
+Me envie uma questão de história sobre a Revolução Francesa.,"A Revolução Francesa, que teve início em 1789, foi um marco na história moderna, pois trouxe mudanças
+significativas na estrutura política, social e econômica da França. Um dos eventos mais simbólicos desse período foi a
+Queda da Bastilha, ocorrida em 14 de julho de 1789. A Bastilha era uma prisão estatal que simbolizava o poder absoluto
+da monarquia francesa. A tomada deste local pelos revolucionários teve grande impacto na Revolução e é comemorada
+até hoje na França como o Dia da Bastilha. Sobre a importância desse evento, assinale a alternativa correta.
+A) A Queda da Bastilha resultou na imediata abdicação do rei Luís XVI.
+B) A Queda da Bastilha marcou o início do fim do regime feudal na França.
+C) A Queda da Bastilha foi um evento meramente simbólico, sem consequências práticas.
+D) A Queda da Bastilha foi liderada exclusivamente pela burguesia francesa."
+Pode gerar uma questão de física sobre leis de Newton?,"Um bloco de 10 kg está em repouso sobre uma superfície horizontal sem atrito. Uma força constante de 20 N é
+aplicada horizontalmente sobre o bloco. Considerando a aceleração da gravidade como 10 m/s2, calcule a aceleração do
+bloco.
+A) 4 m/s2
+B) 2 m/s2
+C) 10 m/s2
+D) 0,5 m/s2"
+Quero uma questão de biologia sobre fotossíntese.,"A fotossíntese é um processo crucial para a vida na Terra, pois é responsável pela produção de oxigênio e pela
+conversão de energia solar em energia química. Durante esse processo, as plantas absorvem dióxido de carbono e água,
+liberando oxigênio como subproduto. A reação química simplificada da fotossíntese pode ser representada pela
+equação: 6CO2 + 6H2O + luz solar → C6H12O6 + 6O2. Qual das seguintes opções descreve corretamente o papel da clorofila
+na fotossíntese?
+A) A clorofila é responsável por transportar água das raízes para as folhas.
+B) A clorofila absorve a luz solar, que é utilizada para excitar elétrons e iniciar as reações químicas da fotossíntese.
+C) A clorofila é um pigmento que armazena glicose nas células vegetais.
+D) A clorofila absorve a luz solar e converte diretamente em glicose."
+Gere uma questão de química sobre ligações químicas.,"As ligações químicas são fundamentais para a formação de compostos. Uma das principais características que
+determinam o tipo de ligação química entre átomos é a diferença de eletronegatividade entre eles. Considere os
+elementos sódio (Na) e cloro (Cl). Sabendo que o sódio tem uma eletronegatividade de 0,93 e o cloro de 3,16, qual é o
+tipo de ligação que se forma entre eles no composto NaCl?
+A) Ligação covalente polar
+B) Ligação metálica
+C) Ligação covalente apolar
+D) Ligação iônica"
+Quero uma questão de geografia sobre mudanças climáticas.,"As mudanças climáticas têm gerado impactos significativos em diversas regiões do planeta. Uma das
+consequências mais visíveis é o aumento do nível do mar, que ameaça diretamente comunidades costeiras. Qual dos
+seguintes fatores é a principal causa do aumento do nível do mar?
+A) Desmatamento em áreas tropicais
+B) Aumento da atividade sísmica submarina
+C) Construção de barragens e represas
+D) Derretimento das geleiras e calotas polares"
+Manda uma questão de sociologia sobre desigualdade social.,"A desigualdade social é um fenômeno que pode ser observado em várias sociedades ao redor do mundo,
+manifestando-se de diferentes formas. Em relação à desigualdade social no Brasil, considere o seguinte trecho:
+""O Brasil é um dos países com maior desigualdade de renda no mundo. Apesar do crescimento econômico nas últimas
+décadas, as disparidades entre ricos e pobres continuam a ser um desafio significativo para o desenvolvimento social e
+econômico do país.""
+Com base no contexto apresentado, qual das alternativas abaixo NÃO é uma consequência direta da desigualdade social
+no Brasil?
+A) Desigualdade no acesso a serviços de saúde
+B) Dificuldade de acesso à educação de qualidade
+C) Crescimento econômico acelerado
+D) Aumento da violência urbana"
+Me dá uma questão de filosofia sobre Sócrates.,"Sócrates, um dos fundadores da filosofia ocidental, é conhecido por sua contribuição ao desenvolvimento do
+método dialético, também conhecido como método socrático. Esse método é caracterizado por uma forma específica de
+diálogo. Qual das alternativas abaixo melhor descreve o método socrático?
+A) Um sistema de debate onde o vencedor é aquele que apresenta a maior quantidade de argumentos.
+B) Uma técnica de diálogo que busca a verdade por meio de perguntas e respostas que estimulam o pensamento crítico.
+C) Um processo de ensino que utiliza apenas textos escritos como principal ferramenta de aprendizado.
+D) Um método de ensino baseado na memorização e repetição de informações."
+Quero uma questão de português sobre análise sintática.,"Leia a frase abaixo e responda à questão a seguir:
+""A professora entregou os trabalhos corrigidos aos alunos na última aula.""
+Na frase apresentada, qual é a função sintática do termo ""aos alunos""?
+A) Objeto direto
+B) Sujeito
+C) Objeto indireto
+D) Adjunto adverbial"
+Gera uma questão de matemática sobre probabilidade.,"Uma urna contém 5 bolas vermelhas, 3 bolas azuis e 2 bolas verdes. Se uma bola é retirada aleatoriamente da
+urna, qual é a probabilidade de que seja uma bola azul?
+A) 0,2
+B) 0,5
+C) 0,1
+D) 0,3"
+Quero uma questão de física sobre eletromagnetismo.," Um fio condutor retilíneo e longo é percorrido por uma corrente elétrica constante de intensidade I. Considere
+ um ponto P situado a uma distância d do fio. De acordo com a lei de Biot-Savart, qual é a expressão correta para o
+ módulo do campo magnético B no ponto P devido à corrente no fio?
+ A) B = \( \frac{\mu_0 I}{4 \pi d^2} \)
+ B) B = \( \frac{\mu_0 I}{2 \pi d^2} \)
+ C) B = \( \frac{\mu_0 I}{4 \pi d} \)
+ D) B = \( \frac{\mu_0 I}{2 \pi d} \"
+Me envie uma questão de história do Brasil sobre a Era Vargas.," Durante o governo de Getúlio Vargas, conhecido como Estado Novo (1937-1945), houve uma centralização do
+ poder e a implementação de medidas autoritárias. Uma das características marcantes desse período foi a criação de um
+ documento legal que estabelecia as diretrizes do governo. Qual era o nome desse documento?
+ A) Carta Magna de 1940
+ B) Constituição de 1934
+ C) Ato Institucional Número Um
+ D) Constituição de 1937"
+Quero uma questão de biologia sobre genética.,"Em uma experiência clássica de genética, Mendel cruzou plantas de ervilhas de sementes amarelas puras com
+plantas de sementes verdes puras. O resultado da primeira geração (F1) foi composto apenas por plantas de sementes
+amarelas. Quando Mendel cruzou estas plantas da F1 entre si, a geração seguinte (F2) apresentou uma proporção de 3:1,
+com três plantas de sementes amarelas para cada planta de sementes verdes. Qual princípio da genética é demonstrado
+por essa experiência?
+A) Princípio da Segregação
+B) Princípio da Ligação Gênica
+C) Princípio da Independência dos Caracteres
+D) Princípio da Dominância"
+Pode gerar uma questão de química sobre pH e soluções?,"O conceito de pH é uma medida da acidez ou basicidade de uma solução aquosa. Ele é definido como o
+logaritmo negativo da concentração de íons de hidrogênio na solução. Considere uma solução aquosa com uma
+concentração de íons H+ igual a 1 x 10−3 mol/L. Qual é o pH dessa solução?
+A) 7
+B) 3
+C) 1
+D) 11"
+Quero uma questão de geografia sobre globalização.,"A globalização é um processo que tem transformado o mundo em uma rede de conexões econômicas, culturais
+e políticas. Um dos principais efeitos desse fenômeno é a integração dos mercados financeiros em escala global. Qual
+das alternativas a seguir melhor descreve uma consequência dessa integração?
+A) Aumento da autonomia dos governos nacionais para regular suas economias.
+B) Redução da influência das instituições financeiras internacionais.
+C) Facilitação do fluxo de capitais entre diferentes países.
+D) Diminuição da volatilidade nos mercados financeiros internacionais."
+Me dá uma questão de filosofia sobre empirismo.,"O empirismo é uma corrente filosófica que defende que todo conhecimento humano deriva da experiência
+sensorial. Um dos filósofos mais destacados dessa corrente é John Locke. Em sua obra ""Ensaio sobre o Entendimento
+Humano"", Locke argumenta que a mente humana é uma ""tábula rasa"". Com base nessa ideia, como Locke explica o
+processo de aquisição de conhecimento?
+A) O conhecimento é uma combinação de intuição e dedução racional.
+B) O conhecimento é adquirido através de ideias inatas e experiências sensoriais.
+C) A mente é uma tábula rasa, preenchida pela experiência sensorial ao longo da vida.
+D) A mente possui ideias inatas que são despertadas pela experiência."
+Gere uma questão de português sobre interpretação de texto.,"Texto-base: Em ""Vidas Secas"", de Graciliano Ramos, a narrativa acompanha a trajetória de uma família de
+retirantes nordestinos em busca de melhores condições de vida. O autor retrata a aridez do sertão e a luta pela
+sobrevivência em um ambiente hostil, destacando a relação entre os personagens e a natureza.
+A) O texto foca exclusivamente nas relações interpessoais, sem abordar o ambiente.
+B) A família enfrenta desafios, mas não há menção à natureza no texto.
+C) A relação entre os personagens é de completa harmonia, sem conflitos.
+D) O ambiente hostil do sertão é um elemento central na narrativa"
+Quero uma questão de matemática sobre matrizes.,"Considere as matrizes A e B, onde A é uma matriz 2x2 dada por \( \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \) e
+ B é uma matriz 2x2 dada por \( \begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix} \). Calcule a matriz resultante da multiplicação
+ de A por B.
+ A) \( \begin{pmatrix} 26 & 30 \\ 38 & 44 \end{pmatrix} \)
+ B) \( \begin{pmatrix} 23 & 34 \\ 31 & 46 \end{pmatrix} \)
+ C) \( \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix} \)
+ D) \( \begin{pmatrix} 21 & 24 \\ 39 & 54 \end{pmatrix} \)"
+Manda uma questão de física sobre termodinâmica.,"Um gás ideal sofre uma transformação isotérmica em um sistema fechado. Durante essa transformação, o gás
+realiza um trabalho de 500 J enquanto troca calor com o ambiente. Sabendo que a temperatura do gás se mantém
+constante durante todo o processo, qual é a quantidade de calor trocada pelo gás com o ambiente?
+A) 1000 J, pois o calor trocado é o dobro do trabalho realizado.
+B) 0 J, pois em uma transformação isotérmica não há troca de calor.
+C) 500 J, pois em uma transformação isotérmica o calor trocado é igual ao trabalho realizado.
+D) -500 J, pois o calor trocado é o oposto do trabalho realizado."
+Preciso de uma questão de sociologia sobre movimentos sociais.,"Os movimentos sociais são fenômenos coletivos que buscam promover mudanças sociais, políticas ou
+ culturais. Eles podem ser classificados de várias formas, dependendo de seus objetivos, métodos e organização. Um
+ exemplo clássico de movimento social é o movimento dos direitos civis nos Estados Unidos, que lutou contra a
+ segregação racial e por direitos iguais para todos os cidadãos, independentemente de sua cor de pele.
+ Qual das alternativas a seguir melhor descreve uma característica comum dos movimentos sociais?
+ A) São compostos exclusivamente por indivíduos da mesma classe social.
+ B) Possuem uma estrutura hierárquica rígida.
+ C) Eles são sempre organizados por partidos políticos.
+ D) Buscam promover mudanças sociais por meio de ações coletivas."
+Me envie uma questão de história sobre a Guerra Fria.,"A Guerra Fria foi um período de tensão geopolítica entre duas superpotências mundiais após a Segunda Guerra
+Mundial. Este conflito ideológico e político não se caracterizou por combates diretos entre as duas potências, mas por
+uma série de disputas indiretas e uma corrida armamentista. Quais eram essas duas superpotências?
+A) Alemanha e Japão
+B) Estados Unidos e Alemanha
+C) Estados Unidos e União Soviética
+D) União Soviética e Japão"
+Quero uma questão de biologia sobre sistema imunológico.,"O sistema imunológico é responsável por proteger o organismo contra infecções e doenças. Uma das células
+ mais importantes desse sistema são os linfócitos, que desempenham papéis cruciais na resposta imune. Existem
+ diferentes tipos de linfócitos, cada um com funções específicas. Qual é a principal função dos linfócitos T citotóxicos?
+ A) Destruir células infectadas por vírus ou células tumorais.
+ B) Apresentar antígenos para linfócitos B.
+ C) Produzir anticorpos que neutralizam patógenos.
+ D) Ativar outras células do sistema imunológico."
+Gera uma questão de química sobre tabela periódica.," A tabela periódica moderna é organizada com base em números atômicos crescentes. A posição de um
+ elemento na tabela periódica pode fornecer diversas informações sobre suas propriedades químicas e físicas.
+ Considerando a posição de um elemento na tabela periódica, qual das seguintes informações pode ser deduzida
+ diretamente?
+ A) O número de massa do elemento.
+ B) A energia de ligação dos compostos formados pelo elemento.
+ C) O número de prótons e elétrons no átomo neutro do elemento.
+ D) A configuração eletrônica completa do elemento."
+Quero uma questão de geografia sobre urbanização.,"A urbanização é um processo que tem se intensificado desde a Revolução Industrial, alterando
+significativamente a organização espacial e social das cidades. Com o crescimento das áreas urbanas, surgem desafios
+relacionados à infraestrutura, habitação e meio ambiente. Qual das alternativas a seguir NÃO é uma consequência direta
+do processo de urbanização?
+A) Crescimento da população urbana em detrimento da rural.
+B) Expansão das áreas periféricas e favelas.
+C) Melhoria imediata da qualidade de vida de toda a população.
+D) Aumento da poluição atmosférica nas cidades."
+Me dá uma questão de filosofia sobre ética.,"Texto-base: Aristóteles, em sua obra 'Ética a Nicômaco', discute a ideia de virtude como um meio termo entre
+ dois extremos viciosos. Ele argumenta que a virtude é um hábito adquirido que nos permite agir de acordo com a razão,
+ buscando sempre o equilíbrio e a moderação em nossas ações e emoções.
+ Com base na teoria aristotélica da virtude, qual das alternativas a seguir melhor exemplifica a aplicação prática dessa
+ teoria na vida cotidiana?
+ A) Uma pessoa que evita qualquer tipo de trabalho ou responsabilidade, preferindo viver de maneira despreocupada.
+ B) Uma pessoa que equilibra seu tempo entre trabalho, lazer e responsabilidades pessoais, buscando uma vida
+ harmoniosa.
+ C) Uma pessoa que trabalha excessivamente sem tempo para lazer, buscando sucesso profissional a qualquer custo.
+ D) Uma pessoa que se dedica exclusivamente ao lazer, negligenciando suas obrigações profissionais e pessoais."
+Manda uma questão de português sobre funções da linguagem.," Considere o seguinte trecho de uma propaganda: ""Compre já o seu! A promoção é por tempo limitado!"". Nesse
+ trecho, a função da linguagem predominante é a função conativa ou apelativa, que tem como objetivo influenciar o
+ comportamento do receptor. Assinale a alternativa que melhor exemplifica essa função.
+ A) ""A nova coleção de inverno já está nas lojas, aproveite!""
+ B) ""A vida é uma peça de teatro que não permite ensaios.""
+ C) ""A beleza da música está em sua capacidade de emocionar.""
+ D) ""O céu estava azul e sem nuvens naquela manhã de primavera."""
+Preciso de uma questão de matemática sobre análise combinatória.,"Um restaurante oferece um cardápio com 5 opções de entrada, 8 opções de prato principal e 4 opções de
+sobremesa. Um cliente deseja escolher uma refeição completa, composta por uma entrada, um prato principal e uma
+sobremesa. De quantas maneiras diferentes ele pode fazer essa escolha?
+A) 140 maneiras
+B) 160 maneiras
+C) 150 maneiras
+D) 180 maneiras"
+Quero uma questão de física sobre óptica geométrica.,"Um feixe de luz monocromático incide sobre uma superfície plana de um espelho com um ângulo de 30° em
+relação à normal. De acordo com as leis da reflexão, qual será o ângulo de reflexão do feixe de luz?
+A) 90°
+B) 30°
+C) 45°
+D) 60°"
+Me envie uma questão de história sobre o Império Romano.,"O Império Romano, em seu auge territorial, foi um dos maiores impérios da história, abrangendo vastas regiões
+da Europa, Ásia e África. Um dos fatores que contribuíram para a manutenção de um território tão extenso foi a
+construção de uma vasta rede de estradas. Qual era a principal finalidade dessas estradas dentro do contexto do Império
+Romano?
+A) Facilitar o comércio entre as províncias do império.
+B) Estimular o turismo nas regiões mais distantes do império.
+C) Garantir uma rápida movimentação das legiões romanas.
+D) Promover a integração cultural entre diferentes povos."
+Gera uma questão de biologia sobre ciclo do carbono.,"O ciclo do carbono é um dos ciclos biogeoquímicos mais importantes para a manutenção da vida na Terra. Ele
+envolve trocas de carbono entre a biosfera, a atmosfera, a hidrosfera e a geosfera. Um dos processos fundamentais desse
+ciclo é a fotossíntese, onde as plantas absorvem dióxido de carbono (CO₂) da atmosfera. Qual é o papel principal da
+fotossíntese no ciclo do carbono?
+A) Produzir dióxido de carbono através da respiração celular.
+B) Converter CO₂ em oxigênio e glicose, reduzindo a quantidade de carbono na atmosfera.
+C) Liberar metano na atmosfera, aumentando o efeito estufa.
+D) Transformar energia solar em energia térmica, aquecendo o planeta."
+Quero uma questão de química sobre reações de oxirredução.,"Em uma reação de oxirredução, ocorre transferência de elétrons entre as espécies químicas envolvidas.
+Considere a reação entre zinco metálico e sulfato de cobre (II), representada pela equação não balanceada: Zn(s) +
+CuSO4(aq) → ZnSO4(aq) + Cu(s). Qual é a espécie que sofre oxidação?
+A) Cobre (Cu)
+B) Zinco (Zn)
+C) Sulfato (SO42−)
+D) Água (H2O)"
+Me dá uma questão de geografia sobre migração populacional.,"A migração populacional é um fenômeno que ocorre em todo o mundo e pode ser influenciada por diversos
+fatores. No contexto da migração interna no Brasil, um dos principais movimentos migratórios foi o êxodo rural,
+especialmente nas décadas de 1960 e 1970. Esse movimento foi impulsionado por fatores econômicos e sociais. Sobre o
+êxodo rural no Brasil, é correto afirmar que:
+A) Teve como principal destino as regiões Norte e Nordeste do Brasil, que ofereciam mais oportunidades de emprego.
+B) Resultou em um aumento significativo da população rural em detrimento das áreas urbanas.
+C) Foi motivado principalmente pela mecanização da agricultura e pela busca por melhores condições de vida nas
+cidades.
+D) Foi incentivado por políticas governamentais que promoviam a permanência dos trabalhadores no campo."
+Pode gerar uma questão de sociologia sobre cultura e identidade?,"A cultura é um elemento essencial na formação da identidade individual e coletiva. Ela é composta por valores,
+crenças, costumes e práticas que são transmitidos de geração em geração. No contexto da globalização, a interação
+entre diferentes culturas tem se intensificado, levando a um fenômeno conhecido como ""hibridização cultural"".
+Com base nesse contexto, como a hibridização cultural pode influenciar a identidade de um indivíduo?
+A) A hibridização cultural pode enriquecer a identidade de um indivíduo, permitindo a incorporação de elementos de
+diferentes culturas.
+B) A hibridização cultural impede a formação de identidades coletivas, pois promove o isolamento cultural.
+C) A hibridização cultural leva à homogeneização cultural, eliminando as identidades individuais.
+D) A hibridização cultural não tem impacto significativo na identidade de um indivíduo, pois as culturas permanecem
+estáticas."
+Quero uma questão de filosofia sobre Kant.,"Immanuel Kant é um dos filósofos mais influentes da era moderna, conhecido por sua obra ""Crítica da Razão
+Pura"". Nesta obra, Kant propõe uma síntese entre o racionalismo e o empirismo, desenvolvendo uma teoria do
+conhecimento que revolucionou a filosofia. Um dos conceitos centrais dessa teoria é a distinção entre fenômeno e coisa
+em si. Segundo Kant, qual é a implicação dessa distinção para o conhecimento humano?
+A) Os fenômenos são apenas ilusões e não têm relação com a realidade.
+B) A coisa em si é uma construção mental sem base na realidade.
+C) O conhecimento humano é capaz de acessar diretamente a coisa em si.
+D) O conhecimento humano é limitado aos fenômenos, não podendo acessar a coisa em si."
+Me envie uma questão de português sobre conectivos.,"Texto-base: Os conectivos são elementos fundamentais na construção de textos, pois eles estabelecem
+relações de sentido entre as orações e os parágrafos, contribuindo para a coesão textual. A escolha correta do conectivo
+pode alterar significativamente o significado de uma frase ou texto.
+A) Conectivos são desnecessários em textos bem estruturados.
+B) O uso de conectivos sempre resulta em frases mais longas e complexas.
+C) Conectivos são utilizados apenas para unir frases que expressam ideias opostas.
+D) A escolha do conectivo pode alterar o sentido de uma frase."
+Gere uma questão de matemática sobre geometria espacial.,"Um cilindro reto tem altura de 10 cm e raio da base de 5 cm. Calcule o volume desse cilindro.
+A) 1000π cm³
+B) 750π cm³
+C) 500π cm³
+D) 250π cm³"
+Quero uma questão de física sobre movimento uniformemente variado.,"Um carro parte do repouso e se move em linha reta com uma aceleração constante de 2 m/s2. Determine a
+velocidade do carro após 5 segundos.
+A) 20 m/s
+B) 5 m/s
+C) 15 m/s
+D) 10 m/s"
+Me dá uma questão de história sobre o Iluminismo.," O Iluminismo foi um movimento intelectual que surgiu na Europa durante o século XVIII, caracterizado pela
+ valorização da razão e pela busca do conhecimento. Uma das figuras centrais desse movimento foi o filósofo francês
+ Voltaire. Qual das opções a seguir representa uma ideia defendida por Voltaire?
+ A) A defesa da liberdade de expressão e da tolerância religiosa.
+ B) A ideia de que o conhecimento científico é inferior à fé religiosa.
+ C) A crença na monarquia absoluta como a melhor forma de governo.
+ D) A defesa da censura como meio de controlar a sociedade."
+Manda uma questão de biologia sobre evolução das espécies.," A Teoria da Evolução das Espécies, proposta por Charles Darwin, revolucionou o entendimento sobre a origem
+ e a adaptação dos seres vivos. Um dos principais mecanismos propostos por Darwin para explicar a evolução é a seleção
+ natural. Qual das alternativas a seguir melhor descreve esse mecanismo?
+ A) A seleção natural é um processo aleatório que não depende das características dos indivíduos em relação ao
+ ambiente.
+ B) A seleção natural é um processo pelo qual os indivíduos mais fortes de uma população são escolhidos para sobreviver
+ e se reproduzir.
+ C) A seleção natural é um mecanismo que garante a sobrevivência dos indivíduos mais inteligentes de uma população.
+ D) A seleção natural é um processo em que os indivíduos com características mais adequadas ao ambiente têm maior
+ chance de sobreviver e deixar descendentes."
+Preciso de uma questão de química sobre gases.,"O comportamento dos gases pode ser explicado pela teoria cinética dos gases, que considera que as partículas
+de um gás estão em constante movimento. Uma das equações que descreve esse comportamento é a equação de estado
+dos gases ideais, dada por PV = nRT. Considere um recipiente de 10 litros contendo 2 mols de um gás ideal a uma
+temperatura de 300 K. Qual é a pressão exercida pelo gás no recipiente? (Considere R = 0,082 atm·L/mol·K)
+A) 49,2 atm
+B) 4,92 atm
+C) 0,492 atm
+D) 0,0492 atm"
+Quero uma questão de geografia sobre fontes de energia renovável.,"Os países estão cada vez mais investindo em fontes de energia renovável como uma alternativa sustentável aos
+combustíveis fósseis. Dentre as opções disponíveis, a energia eólica tem ganhado destaque devido ao seu potencial de
+geração limpa e abundante. Considerando a localização geográfica e as condições climáticas, qual das regiões abaixo é
+mais propícia para a instalação de parques eólicos?
+A) Desertos da Arábia Saudita, devido à grande incidência de luz solar.
+B) Litoral do Nordeste do Brasil, devido aos ventos constantes e fortes.
+C) Região Norte do Brasil, devido à sua proximidade com a linha do Equador.
+D) Região Centro-Oeste do Brasil, devido à sua vasta extensão territorial."
+Gere uma questão de sociologia sobre trabalho e sociedade.,"A Revolução Industrial, iniciada no final do século XVIII, trouxe profundas mudanças nas relações de trabalho e
+na estrutura social das sociedades europeias. Um dos principais impactos foi a transição de uma economia agrária para
+uma economia industrial, o que alterou significativamente a vida dos trabalhadores.
+Qual das alternativas abaixo descreve corretamente uma consequência social dessa transição?
+A) Redução da exploração do trabalho infantil nas fábricas devido às novas leis trabalhistas.
+B) Crescimento das cidades e formação de uma nova classe social, o proletariado urbano.
+C) Aumento da qualidade de vida e redução das jornadas de trabalho para todos os trabalhadores.
+D) Desaparecimento das desigualdades sociais devido à mecanização das atividades produtivas."
+Me envie uma questão de filosofia sobre niilismo.,"O niilismo é uma corrente filosófica que, em sua essência, questiona a existência de valores e significados
+intrínsecos no mundo. Friedrich Nietzsche, um dos filósofos mais associados ao niilismo, propôs a ideia da ""morte de
+Deus"" como uma metáfora para a perda de valores absolutos na sociedade ocidental. Segundo Nietzsche, essa ""morte""
+traria consequências profundas para a moral e a cultura. Com base nessa perspectiva, qual seria um dos principais
+desafios que o niilismo apresenta para a sociedade contemporânea?
+A) A rejeição completa da ciência e do progresso tecnológico.
+B) O fortalecimento de instituições políticas autoritárias.
+C) A reafirmação de valores religiosos tradicionais.
+D) A necessidade de criar novos valores em um mundo sem absolutos."
+Quero uma questão de português sobre figuras de linguagem.,"Leia o trecho a seguir e responda à questão.
+""O mar estava calmo como um espelho naquela manhã de verão.""
+Qual figura de linguagem está presente na frase acima?
+A) Antítese
+B) Metáfora
+C) Comparação
+D) Metonímia"
+Pode gerar uma questão de matemática sobre estatística descritiva?,"Em uma pesquisa sobre a altura de estudantes de uma escola, foram coletados os seguintes dados (em
+centímetros): 150, 155, 160, 165, 170, 175, 180, 185, 190, 195. Qual é a média aritmética das alturas dos estudantes?
+A) 172,5 cm
+B) 175 cm
+C) 170 cm
+D) 177,5 cm"
+Me dá uma questão de física sobre leis de Kepler.,"Kepler desenvolveu três leis fundamentais que descrevem o movimento dos planetas ao redor do Sol. A
+primeira lei, também conhecida como a Lei das Órbitas, afirma que:
+A) Os planetas se movem em órbitas elípticas com o Sol em um dos focos.
+B) Os planetas se movem em órbitas circulares com o Sol no centro.
+C) Os planetas se movem em órbitas elípticas com o Sol no centro.
+D) Os planetas se movem em órbitas circulares com o Sol em um dos focos."
+Quero uma questão de história sobre o período colonial brasileiro.,"Durante o período colonial brasileiro, a economia era amplamente baseada na produção de açúcar. Essa
+atividade econômica foi impulsionada por diversos fatores. Qual dos fatores abaixo NÃO contribuiu significativamente
+para o sucesso da produção de açúcar no Brasil colonial?
+A) O apoio financeiro e tecnológico dos holandeses.
+B) A abundância de terras férteis no nordeste brasileiro.
+C) A proximidade geográfica com os principais mercados europeus.
+D) A presença de mão de obra escrava africana."
+Manda uma questão de biologia sobre respiração celular.,"A respiração celular é um processo vital para a produção de energia em organismos aeróbicos. Durante esse
+processo, a glicose é oxidada para gerar ATP, que é utilizado como fonte de energia. A respiração celular ocorre em três
+etapas principais: glicólise, ciclo de Krebs e cadeia transportadora de elétrons. Qual das alternativas abaixo descreve
+corretamente um produto da glicólise?
+A) Ácido cítrico
+B) Ácido pirúvico
+C) Oxigênio
+D) ATP sintase"
+Gera uma questão de química sobre equilíbrio químico.,"O conceito de equilíbrio químico é fundamental na química e refere-se à situação em que as taxas das reações
+direta e reversa são iguais, resultando em concentrações constantes dos reagentes e produtos. Considere a reação
+abaixo em equilíbrio:
+N2(g) + 3H2(g)
+2NH3(g)
+
+Se a pressão total do sistema for aumentada, o que se espera que aconteça com o equilíbrio da reação, de acordo com o
+princípio de Le Châtelier?
+A) A constante de equilíbrio Kc aumentará.
+B) O equilíbrio não será afetado pela mudança na pressão.
+C) O equilíbrio se deslocará para a esquerda, favorecendo a formação de N2 e H2.
+D) O equilíbrio se deslocará para a direita, favorecendo a formação de mais NH3."
+Preciso de uma questão de geografia sobre biomas brasileiros.,"Os biomas brasileiros são regiões de grande importância ecológica e econômica para o país. Um desses biomas
+é caracterizado por apresentar uma vegetação xerófila, adaptada a longos períodos de seca, e é conhecido por sua
+biodiversidade única e por ser um dos mais ameaçados do Brasil. Qual é esse bioma?
+A) Amazônia
+B) Mata Atlântica
+C) Caatinga
+D) Cerrado"
