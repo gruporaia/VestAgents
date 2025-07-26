@@ -37,8 +37,7 @@ geração_questao:
   
     {few_shot_prompt}
   expected_output: >
-    Um objeto JSON contendo as chaves "enunciado" e "alternativas".
-    A chave "enunciado" deve conter o texto do enunciado da questão, que deve ser autocontido e contextualizado.
+    Um objeto JSON contendo as chaves "enunciado", "alternativas" e "gabarito".
     A chave "alternativas" deve ser um objeto com as chaves "A", "B", "C", "D", contendo os textos de cada alternativa.
 
     Exemplo de Saída:
@@ -86,12 +85,22 @@ correção_questao:
     redundante que não contribuía para a pergunta.").
     5. Se o enunciado original já estiver perfeito e não necessitar de correções, indique isso claramente no campo 
     "correcoes_detalhadas" (ex: "Nenhuma correção necessária. O enunciado original está gramaticalmente correto, 
+    "correcoes_detalhadas" (ex: "Nenhuma correção necessária. O enunciado original está gramaticalmente correto, 
     conceitualmente preciso e claro.").
   expected_output: >
-    Um json sem ``` com as chaves "enunciado", "alternativas" e "correcoes" preenchidas com os valores correspondentes.
+    Um json sem ``` com as chaves "enunciado", "alternativas", "gabarito_original" e "correcoes" preenchidas com os valores correspondentes.
     Exemplo de saída:
 
       {
+        "enunciado": "Um jardineiro dispõe de k metros lineares de cerca baixa para fazer um jardim ornamental. O jardim, delimitado por essa cerca, deve ter a forma de um triângulo equilátero, um quadrado ou um hexágono regular. A escolha será pela forma que resulte na maior área. O jardineiro escolherá a forma de",
+        "alternativas": {
+          "A": "hexágono regular, pois a área do jardim, em metro quadrado, será $\frac{k^2\sqrt{3}}{24}$.",
+          "B": "hexágono regular, pois a área do jardim, em metro quadrado, será $\frac{3k^2\sqrt{3}}{2}$.",
+          "C": "quadrado, pois a área do jardim, em metro quadrado, será $\frac{k^2}{16}$.",
+          "D": "triângulo equilátero, pois a área do jardim, em metro quadrado, será $\frac{k^2\sqrt{3}}{36}$.",
+        "gabarito_original" : "A",
+        "correcao": "A correção realizada foi em ...."
+      }
         "enunciado": "Um jardineiro dispõe de k metros lineares de cerca baixa para fazer um jardim ornamental. O jardim, delimitado por essa cerca, deve ter a forma de um triângulo equilátero, um quadrado ou um hexágono regular. A escolha será pela forma que resulte na maior área. O jardineiro escolherá a forma de",
         "alternativas": {
           "A": "hexágono regular, pois a área do jardim, em metro quadrado, será $\frac{k^2\sqrt{3}}{24}$.",

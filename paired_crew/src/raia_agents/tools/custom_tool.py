@@ -6,10 +6,9 @@ from langchain.prompts import FewShotPromptTemplate, PromptTemplate
 from langchain_community.docstore.in_memory import InMemoryDocstore
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
-from pydantic import BaseModel, Field
+from litellm import BaseModel, Field
 
-# Load the FAISS index from a file
-index = faiss.IndexFlatL2(3080)
+index = faiss.IndexFlatL2()
 embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
 vector_store = FAISS(
     embedding_function=embeddings,
@@ -18,36 +17,9 @@ vector_store = FAISS(
     index_to_docstore_id={},
 )
 
-
-class EmptyToolResultError(Exception):
-    """Raised when the tool returns an empty result."""
-
-
-class Retriever:
-    def __init__(self, folder_path: str = "artifacts/"):
-        self.vector_store = FAISS.load_local(
-            folder_path,
-            embeddings,
-            allow_dangerous_deserialization=True,
-        )
-
-    def invoke(self, topic, amount_to_retrieve, threshold):
-        retrieve = self.vector_store.similarity_search_with_relevance_scores(
-            k=amount_to_retrieve,
-            query=topic,
-            score_threshold=threshold,
-        )
-
-        return retrieve
-
-
-class RetrieveQuestoesToolSchema(BaseModel):
+class RagToolSchema(BaseModel):
     """Schema para pegar o tópico de interesse do usuário para poder gerar questões"""
 
-    pergunta: str = Field(
-        ...,
-        description="A pergunta educacional que deve ser usada para recuperar questões similares.",
-    )
     topic: str = Field(
         description="Tópico para fazer a busca por similaridade e gerar as questões atreladas a esse assunto"
     )
@@ -55,49 +27,57 @@ class RetrieveQuestoesToolSchema(BaseModel):
         description="Quantidade de trechos de similaridade para ser usado na busca"
     )
     threshold: float = Field(
-        description="Limite de similaridade para considerar um trecho relevante. Um valor razoável é 0.2, mas pode ser ajustado conforme necessário."
+        description="Limite de similaridade para considerar um trecho relevante. Um valor razoável é 0.3 e no máximo 0.5, mas pode ser ajustado conforme necessário."
     )
 
 
-# Ferramenta que será utilizada pelo agente few shot para procurar 5 questões na base de dados e utilizar o resultado para ajudar no prompt do agente gerador de questões
 class RetrieveQuestoesTool(BaseTool):
-    name: str = "Retriever"
+    name: str = "Questions Retriever"
     description: str = (
         "Function that retrieves data of a database, based on user topic of interest, so that it helps to generate questions."
     )
-    args_schema: Type[BaseModel] = RetrieveQuestoesToolSchema
+    args_schema: Type[BaseModel] = RagToolSchema
 
     def _run(
-        self, pergunta: str, topic: str, amount_to_retrieve: int, threshold: float = 0.2
+        self, topic: str, amount_to_retrieve: int = 5, threshold: float = 0.3
     ) -> str:
-        retrieve = Retriever(folder_path="artifacts/questions_faiss_v2").invoke(
-            topic, amount_to_retrieve, threshold
+        vector_store = FAISS.load_local(
+            "artifacts/questions_faiss_v2/",
+            embeddings,
+            allow_dangerous_deserialization=True,
+        )
+        docs = vector_store.similarity_search_with_relevance_scores(
+            k=amount_to_retrieve,
+            query=topic,
+            score_threshold=threshold,
         )
 
-        if not retrieve or len(retrieve) == 0:
-            # raise EmptyToolResultError("No documents found for the given topic.")
-            return "No documents found for the given topic."
         examples = [
             {
-                "pergunta": doc.page_content,
-                "resposta": doc.metadata.get("correct_answer", ""),
+                "questao":
+                    f"{doc.page_content.split('Alternatives')[0].strip()}\n\n" +
+                    (
+                        f"Alternativas:\n{doc.page_content.split('Alternatives:')[1].strip()}"
+                        if "Alternatives:" in doc.page_content
+                        else "Alternativas não encontradas."
+                    )
             }
-            for doc, __ in retrieve
+            for doc, _ in docs
         ]
 
         example_prompt = PromptTemplate(
-            input_variables=["pergunta", "resposta"],
-            template="Pergunta: {pergunta}\n Alternativa correta: {resposta}",
+            input_variables=["questao"], template="Questão: \n{questao}\n\n"
         )
 
         few_shot_prompt = FewShotPromptTemplate(
             examples=examples,
             example_prompt=example_prompt,
-            prefix="Foi solicitado o seguinte\n{input}. \nAqui estão algumas questões semelhantes ao que foi solicitado:",
-            suffix="Com base nas questões de exemplo e utilizando o seu conhecimento, gere uma nova questão para atender o pedido.",
+            prefix="Aqui estão exemplos de questões no tópico fornecido:",
+            suffix="Gere uma nova questão de acordo com o tema: {input}",
             input_variables=["input"],
         )
-        prompt = few_shot_prompt.format(input=pergunta)
+
+        prompt = few_shot_prompt.format(input=topic)
         return prompt
 
 
@@ -121,7 +101,18 @@ class RawParagraphTool(BaseTool):
         resp = requests.get(url)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
-        paras = [str(p) for p in soup.find_all("p")]
+
+        paras = []
+        total_chars = 0
+        max_chars = 10000
+
+        for p in soup.find_all("p"):
+            p_str = str(p)
+            if total_chars + len(p_str) > max_chars:
+                break
+            paras.append(p_str)
+            total_chars += len(p_str)
+
         return {"raw_html_paragraphs": paras}
 
     async def _arun(self, url: str) -> dict:

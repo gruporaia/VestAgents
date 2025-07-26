@@ -1,8 +1,16 @@
 buscar_dados_para_questao:
   description: |
-    Com base no pedido do usuário {solicitacao_melhorada} e no tópico da questão {topicos} identificada, realize uma busca na internet
+    Com base no pedido do usuário {solicitacao_melhorada}, realize uma busca na internet
     para encontrar conteúdos que possam ser utilizados como texto-base em uma questão de vestibular.
 
+    Use somente fontes em português.
+
+    Use a ferramenta "Search the internet with Serper" usando o campo "search_query" com a pergunta ou tema principal
+
+    Exemplo:
+    {
+      "search_query": "questões de vestibular sobre cinemática"
+    } 
     **EXTRAÇÃO RAW**  
     - Use web.open para obter o HTML bruto.
     - Use web.find (ou equivalente) com `raw: true` para capturar **todos** os <p>…</p>.
@@ -23,6 +31,7 @@ buscar_dados_para_questao:
       raw: true
 
   expected_output: >
+    Um json sem ``` seguindo o exemplo abaixo
     {
       "fonte 1": {
         "url": "https://site1.com/exemplo",
@@ -37,11 +46,9 @@ buscar_dados_para_questao:
 
 geração_questao:
   description: >
-    Gere uma questão inédita de múltipla escolha para vestibulares e ENEM, com base no pedido do usuário {solicitacao_melhorada} e no tópico da questão {topicos} identificada.
-    A questão deve ser elaborada no estilo dos principais exames brasileiros (como ENEM), focando na avaliação de competências essenciais do ensino médio.
-
-    Alguns exemplos de questões sobre a temática que podem ser úteis para a geração da questão {input_user}
-    Instruções Detalhadas:
+    Gere uma questão inédita de múltipla escolha para simular um vestibular do Brasil seguindo o pedido do usuário:
+    {solicitacao_melhorada}
+    A questão deve ser elaborada no estilo dos principais exames brasileiros, focando na avaliação de competências essenciais do ensino médio.
 
     1. Estrutura da Questão:
       Enunciado: Deve ser autocontido, apresentando uma contextualização relevante e instigante (podendo ser um cenário 
@@ -68,28 +75,28 @@ geração_questao:
     5. Restrições:
       Não inclua a identificação da resposta correta (gabarito) no texto do enunciado ou das alternativas. O gabarito 
       será especificado em um campo separado no JSON de saída.
-      Não utilize as tools disponíveis para esta tarefa. A geração deve ser baseada exclusivamente no seu conhecimento 
-      e nas instruções fornecidas.
-      A questão deve ser solucionável com base no conhecimento tipicamente adquirido durante o Ensino Médio.
+
+      A questão deve ser solucionável com base no conhecimento tipicamente adquirido durante o Ensino Médio e utiizando
+      raciocínio lógico.
     6. Não esquecer de colocar a URL da fonte de onde o texto de apoio foi retirado.
+  
+    {few_shot_prompt}
   expected_output: >
-    Um objeto JSON contendo as chaves "texto_apoio", "enunciado", "alternativas" e "gabarito".
+    Um objeto JSON contendo as chaves "texto_apoio", "enunciado" e "alternativas".
     A chave "texto_apoio" deve conter o trecho pesquisado pelo agente anterior.
     A chave "alternativas" deve ser um objeto com as chaves "A", "B", "C", "D", contendo os textos de cada alternativa.
-    A chave "gabarito" deve conter a letra da alternativa correta.
 
     Exemplo de Saída:
     {
       "texto_apoio": "Durante o século XIX, a Revolução Industrial começou a substituir o trabalho artesanal e agrícola por processos de produção em fábricas. Pessoas que antes trabalhavam em pequenas propriedades rurais migraram em massa para centros urbanos em busca de emprego. Essa rápida urbanização fez com que bairros operários crescessem ao redor das indústrias, e as atividades diárias passaram a girar em torno do ritmo das máquinas e da disciplina fabril, ao invés dos ciclos sazonais do campo.",
-      "url": "https://site1.com/exemplo",
+      "Disponível em: http://thumbpress.com/. Acesso em: 28 out. 2013",
       "enunciado": "Considerando o contexto apresentado no texto de apoio, qual das seguintes alternativas representa uma consequência social significativa dessa transformação durante a Revolução Industrial?",
       "alternativas": {
         "A": "Reforço do trabalho em pequenas propriedades rurais, com retorno dos trabalhadores às vilas do interior.",
         "B": "Aumento da influência de monarquias agrárias que sustentavam sistemas feudais tradicionais.",
         "C": "Formação de uma nova classe operária urbana submetida a jornadas de trabalho extensas em fábricas.",
         "D": "Desenvolvimento de tecnologia de transportes que tornou obsoletos os navios a vapor."
-      },
-      "gabarito": "C"
+      }
     }
   agent: redator_questao
 
@@ -131,12 +138,12 @@ correção_questao:
     conceitualmente preciso e claro.").
     6. Não esquecer de colocar a URL da fonte de onde o texto de apoio foi retirado.
   expected_output: >
-    Um json sem ``` com as chaves "enunciado", "alternativas" e "correcoes" preenchidas com os valores correspondentes.
+    Um json sem ``` com as chaves "enunciado", "alternativas", "gabarito_original" e "correcoes" preenchidas com os valores correspondentes.
     Exemplo de saída:
 
       {
       "texto_apoio": "Durante o século XIX, a Revolução Industrial começou a substituir o trabalho artesanal e agrícola por processos de produção em fábricas. Pessoas que antes trabalhavam em pequenas propriedades rurais migraram em massa para centros urbanos em busca de emprego. Essa rápida urbanização fez com que bairros operários crescessem ao redor das indústrias, e as atividades diárias passaram a girar em torno do ritmo das máquinas e da disciplina fabril, ao invés dos ciclos sazonais do campo.",
-      "url": "https://site1.com/exemplo",
+      "Disponível em: http://thumbpress.com/. Acesso em: 28 out. 2013"
       "enunciado": "Considerando o contexto apresentado no texto de apoio, qual das seguintes alternativas representa uma consequência social significativa dessa transformação durante a Revolução Industrial?",
       "alternativas": {
         "A": "Reforço do trabalho em pequenas propriedades rurais, com retorno dos trabalhadores às vilas do interior.",
@@ -144,7 +151,7 @@ correção_questao:
         "C": "Formação de uma nova classe operária urbana submetida a jornadas de trabalho extensas em fábricas.",
         "D": "Desenvolvimento de tecnologia de transportes que tornou obsoletos os navios a vapor."
       },
-      "gabarito": "C"
+      "gabarito_original": "C"
 
       "correcao": "A correção realizada foi em ...."
     }

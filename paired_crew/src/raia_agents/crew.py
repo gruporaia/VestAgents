@@ -7,13 +7,6 @@ from crewai_tools import SerperDevTool
 
 from src.raia_agents.tools.custom_tool import RawParagraphTool, RetrieveQuestoesTool
 
-"""
-Primeira crew, responsável por melhorar o pedido do usuário, extrair 
-informações importantes do pedido e buscar por questões no banco de dados que
-se aproximem do pedido
-"""
-
-
 @CrewBase
 class RaiaAgents:
     """RaiaAgents crew"""
@@ -71,7 +64,7 @@ class RaiaAgents:
     def selecionar_questoes(self) -> Task:
         return Task(
             config=self.tasks_config["selecionar_questoes"],
-            output_file=f"resultados/{self.question_id}/selecionar_questoes.txt",
+            output_file=f"resultados/{self.question_id}/few_shot_prompt.json",
         )
 
     @crew
@@ -85,14 +78,7 @@ class RaiaAgents:
             verbose=True,
             output_log_file="logs.json",
         )
-
-
-"""
-Segunda crew, responsável por realizar um web scrapping para encontrar informações
-que possam ser relevantes para atender o pedido do usuário e junto do resultado do few shot da crew anterior,
-gerar uma questão nova, corrigi-la se necessário e solucioná-la gerando uma explicação.
-"""
-
+    
 
 @CrewBase
 class RaiaRedacaoCrew:
@@ -110,7 +96,6 @@ class RaiaRedacaoCrew:
             config=self.agents_config["pesquisa_e_extracao"],
             tools=[SerperDevTool(), RawParagraphTool()],
             verbose=True,
-            memory=True,
         )
 
     @agent
@@ -119,7 +104,6 @@ class RaiaRedacaoCrew:
             config=self.agents_config["redator_questao"],
             tools=[],
             verbose=True,
-            memory=True,
         )
 
     @agent
@@ -128,7 +112,6 @@ class RaiaRedacaoCrew:
             config=self.agents_config["resolutor_questao"],
             tools=[],
             verbose=True,
-            memory=True,
         )
 
     @agent
@@ -137,7 +120,6 @@ class RaiaRedacaoCrew:
             config=self.agents_config["revisor_questao"],
             tools=[],
             verbose=True,
-            memory=True,
         )
 
     @task
