@@ -68,11 +68,18 @@ Esse comando inicia a crew de agentes conforme definido em `main.py`.
 
 ## 📊 Resultados
 
-O VestAgents já foi utilizado para gerar centenas de questões inéditas com qualidade semelhante a vestibulares tradicionais. Entre os diferenciais observados:
+A avaliação de resultados foi realizada utilizando DeepEval e os critérios utilizados na matriz de referência do Enem.
+Resultados finais das métricas para 50 questões:
+<img width="1500" height="800" alt="EVAL" src="https://github.com/user-attachments/assets/9aa60a12-ae0e-4e85-9a13-7c4463d84164" />
 
-- Maior alinhamento com o estilo do Enem e de vestibulares paulistas.
-- Diversidade de tópicos e níveis de dificuldade.
-- Geração contextualizada com exemplos e textos atualizados.
+Enem: Questões reais dos tópicos em vestibulares antigos do Enem;
+Few shot: Nossa abordagem com agente few shot;
+Baseline: Questões geradas utilizando o modelo baseline sem agentes.
+
+Resumo: Como podemos observar, o dataset do Enem possui o melhor desempenho geral, seguido de perto pelo nosso modelo Few Shot. As questões do baseline apresentam um desempenho inferior em comparação aos outros dois.
+
+Este gráfico revela que o nosso modelo FewShot apresenta um desempenho muito competitivo em relação às questões do ENEM, superando-o em algumas métricas como "Alternativa correta", “Enunciado" e "Linguagem inclusiva". Ambos, ENEM e FewShot, mostram uma vantagem clara sobre as questões da Pico na maioria das métricas, especialmente em "Exigencia cognitiva", onde o baseline demonstra uma queda mais acentuada.
+
 
 ### Próximos passos
 
